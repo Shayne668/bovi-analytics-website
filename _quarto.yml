@@ -2,36 +2,25 @@ project:
   type: website
   render:
     - "*.qmd"
-    - "!slides/"
   resources:
     - "files/"
-    - "projects/"
-    - "slides/*.html"
-    - "slides/*.pdf"
-    - "slides/img/"
-    - "slides/libs/"
-    - "slides/css/"
-    - "slides/*_files/"
 
 # See https://quarto.org/docs/projects/code-execution.html#freeze
 execute:
   freeze: auto  # Re-render only when source changes
 
-bibliography: files/bib/references.bib
-csl: files/bib/chicago-author-date.csl
-description-meta: "Use modern statistical and data scientific tools to measure causal effects and evaluate public policy"
+description-meta: "Use modern data analytical tools for dairy science"
 
 website:
-  title: "Program Evaluation"
+  title: "Bovi-Analytics"
   site-url: "https://evalf22.classes.andrewheiss.com"
 
-  favicon: "/files/icon-512.png"
+  favicon: "/files/img/Bovi-Analytics-SmallLogo.png"
 
   twitter-card:
     image: "/files/social-image-f22.png"
     card-style: summary_large_image
-    creator: "@andrewheiss"
-    # site: "@andrewheiss"
+    creator: "@MielHostens"
 
   open-graph:
     image: "/files/social-image-f22.png"
@@ -39,26 +28,19 @@ website:
 
   navbar:
     pinned: true
-    background: "#EE6A24"
+    background: "#4287f5"
     right:
-      - syllabus.qmd
-      - schedule.qmd
-      - text: "Content"
-        file: content/index.qmd
-      - text: "Assignments"
-        file: assignment/index.qmd
-      - text: "Examples"
-        file: example/index.qmd
-      - text: "Resources"
-        file: resource/index.qmd
-      - text: "News"
-        file: news/index.qmd
+      - text: "Researchers"
+        file: researchers/index.qmd
+      - text: "Projects"
+        file: projects/index.qmd
+      - text: "Tools"
+        file: tools/index.qmd
       - icon: slack
-        href: "https://gsuevalf2022.slack.com"
+        href: "https://bovi-analytics.slack.com"
         aria-label: Slack
-      - icon: cloud-fill
-        href: "https://rstudio.cloud"
-        aria-label: RStudio.cloud
+      - icon: github
+        href: "https://github.com/Bovi-Analytics/"
 
   sidebar:
     - title: "Content"
@@ -184,13 +166,13 @@ website:
 
   page-footer:
     left: |
-      Content {{< fa brands creative-commons >}} {{< var course.copyright_year >}} by [{{< var instructor.name_no_title >}}]({{< var instructor.url >}}) <br>
+      Content {{< fa brands creative-commons >}} {{< var lab.copyright_year >}} by [{{< var instructor.name_no_title >}}]({{< var instructor.url >}}) <br>
       All content licensed under a {{< fa brands creative-commons >}}
       {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nc >}}
       [Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)
     right: |
       Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)<br>
-      [View the source at {{< fa brands github >}} GitHub]({{< var course.github >}})
+      [View the source at {{< fa brands github >}} GitHub]({{< var lab.github >}})
 
 format:
   html:
