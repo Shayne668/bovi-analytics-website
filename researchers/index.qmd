@@ -29,7 +29,7 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 ::: {.g-col-12 .g-col-md-4 .yongyan-chen}
 ### YongYan Chen
 
-![](/files/img/researchers/Missing.png){width="197"}
+![](/files/img/researchers/YongyanChen.png){width="197"}
 :::
 
 ::: {.g-col-12 .g-col-md-4 .kristof-hermans}
@@ -41,13 +41,13 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 ::: {.g-col-12 .g-col-md-4 .yara-sleghers}
 ### Yara Sleghers
 
-![](/files/img/researchers/Missing.png){width="197"}
+![](/files/img/researchers/YaraSleghers.png){width="197"}
 :::
 
 ::: {.g-col-12 .g-col-md-4 .yara-sleghers}
 ### Saba Noor
 
-![](/files/img/researchers/Missing.png){width="197"}
+![](/files/img/researchers/SabaNoor.png){width="197"}
 :::
 :::
 
@@ -81,13 +81,13 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 ::: {.g-col-12 .g-col-md-4 .peter-hut}
 ### Peter Hut
 
-![](/files/img/researchers/Missing.png){width="200"}
+![](/files/img/researchers/PeterHut.png){width="200"}
 :::
 
 ::: {.g-col-12 .g-col-md-4 .arno-liseune}
 ### Arno Liseune
 
-![](/files/img/researchers/Missing.png){width="200"}
+![](/files/img/researchers/ArnoLiseune.png){width="200"}
 :::
 :::
 :::
