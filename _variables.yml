@@ -12,6 +12,11 @@ instructor:
   contact_policy: >-
     E-mail and Slack are the best ways to get in contact with me. I will try to respond to all lab-related e-mails and Slack messages within 24 hours (*I really do*), but also remember that i'm RED so remind me if I don't respond right away, don't worry!
   appointment_url: https://outlook.office365.com/owa/calendar/MielHostens@solisservices.onmicrosoft.com/bookings/
+  tableau_url: "https://public.tableau.com/profile/bovianalytics#!/"
+  google_scholar: "https://scholar.google.com/citations?hl=en&user=fZ1xfdQAAAAJ&view_op=list_works&gmla=AJsN-F6DOEcpROYxdOyxFgAREeu8df0RTIsVt3GOURyAkAdHcPwdCyx3_kJuFcTA7zgnVEoACNe-TtSPCUsDbl46SiHosZyyFYzQURxnFr_Pm8VwMoMNB20"
+  scopus: "https://www.scopus.com/authid/detail.uri?authorId=25960883600"
+  research_gate: "https://www.researchgate.net/profile/Miel_Hostens"
+  phd_url: "http://www.rohh.ugent.be/v3/research/phd/2012/Hostens_M.pdf"
 
 lab:
   location: "Yalelaan 7, 3584 CL Utrecht"

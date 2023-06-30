@@ -1,6 +1,6 @@
 ---
 title: "Welcome to the Bovi-Analytics lab"
-subtitle: "Combine data and dairy analytics into knowledge"
+subtitle: "However beautifull the strategy might be, once in a while you should look at the data"
 sidebar: false
 toc: false
 page-layout: full
