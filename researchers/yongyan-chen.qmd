@@ -1,0 +1,44 @@
+---
+title: "Curriculum Vitae - Yongyan Chen"
+subtitle: "Usefullness of laction curve modelling."
+categories:
+  - PhD
+  - Animal science
+  - DataScience
+author: YongYan Chen
+date: 07/01/23
+toc: true
+image: yongyan-chen-bio.png
+image-alt: YongYan Chen
+language: 
+    section-title-footnotes: References
+---
+
+# Who am I
+
+Hi I am Yongyan Chen. I came from China and started my phd at December 2019. My research focus is on the usefulness of lactation curve modelling.
+
+# What project I am working on
+
+There are four chapters in my phd thesis:
+
+-   A procedure to develop annual herd level lactation curve characteristics from individual cow level data for Dutch dairy farms
+-   An empirical analysis of economic herd performance in relation to herd lactation curve characteristics
+-   Prediction of persistency at day 305 in lactation at the moment of the insemination decision
+-   Association between pregnancy stage and lactation persistency in dairy cattle
+
+![](images/yongyan-chen-bio.png)
+
+# Publications finished
+
+## Scholarly publications
+
+Chen, Y., M. Hostens, M. Nielen, J. Ehrlich, and W. Steeneveld. 2022c. Herd level economic comparison between the shape of the lactation curve and 305 d milk production. Front. Vet. Sci. 9. [doi:10.3389/fvets.2022.997962](https://www.frontiersin.org/articles/10.3389/fvets.2022.997962/full).
+
+## Conference proceedings and posters
+
+Chen, Y., M. Hostens, M. Nielen, J. Ehrlich, and W. Steeneveld. 2021. An Empirical Analysis on the Association between Persistency of Dairy Cows and Economic Herd Performance. Page 72 in Isessah.
+
+Chen, Y., M. Hostens, M. Nielen, J. Ehrlich, and W. Steeneveld. 2022a. An empirical analysis of economic herd performance in relation to herd lactation curve characteristics. Page 35 in Dair'Innov congress 2022.
+
+Chen, Y., M. Hostens, M. Nielen, J. Ehrlich, and W. Steeneveld. 2022b. An empirical analysis of economic herd performance in relation to herd lactation curve characteristics. Pages 728--736 in European Conference on Precision Livestock Farming & International Conference on Precision Dairy Farming 2022.
