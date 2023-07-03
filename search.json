@@ -7,6 +7,20 @@
     "text": "Welcome to the Bovi-Analytics lab\n        \n        \n            However beautifull the strategy might be, once in a while you should look at the data\n        \n        \n            \n        \n    \n    \n      \n        \n        \n        \n      \n    \n\n\n\n\n\nInstructor\n\n   Ass. Prof. Dr. Miel Hostens\n   Yalelaan 7, 3584 CL, Utrecht\n   m.m.hostens@uu.nl\n   @MielHostens\n   Schedule an appointment\n\n\n\nLab details\n\n   Yalelaan 7, 3584 CL Utrecht\n   Slack\n   Github\n\n\n\nContacting me\nE-mail and Slack are the best ways to get in contact with me. I will try to respond to all lab-related e-mails and Slack messages within 24 hours (I really do), but also remember that i’m RED so remind me if I don’t respond right away, don’t worry!"
   },
   {
+    "objectID": "researchers/index.html",
+    "href": "researchers/index.html",
+    "title": "Researchers",
+    "section": "",
+    "text": "](yongyan-chen.html)"
+  },
+  {
+    "objectID": "researchers/index.html#active-researchers",
+    "href": "researchers/index.html#active-researchers",
+    "title": "Researchers",
+    "section": "",
+    "text": "](yongyan-chen.html)"
+  },
+  {
     "objectID": "researchers/miel-hostens.html#current-position",
     "href": "researchers/miel-hostens.html#current-position",
     "title": "Curriculum Vitae - Miel Hostens",
@@ -110,5 +124,26 @@
     "title": "Curriculum Vitae - Miel Hostens",
     "section": "Datascience skills",
     "text": "Datascience skills\n\n\n\n\n\n\n\n\nComputer languages\nDatascience software\nStatistical frameworks\n\n\n[R]\nPython\nScala\nSQL\nSAS code\nBash\nC++\nSQL Server/warehouse\nJupyter notebooks\nJupyter lab\nIntellij\nGoogle colab\nSpark scala\nTableau\nDocker\nTensorFlow\nGit & Github\nSPSS\nSAS-Project\nR-Project\n\n\nCloud\nHardware\n\n\n\nMicrosoft azure\nGoogle cloud\nDocker\nTheThingsNetwork\nIoT (eg LoraWAN)\nArduino framework\nRaspberryPi"
+  },
+  {
+    "objectID": "researchers/yongyan-chen.html",
+    "href": "researchers/yongyan-chen.html",
+    "title": "Curriculum Vitae - Yongyan Chen",
+    "section": "",
+    "text": "Hi I am Yongyan Chen. I came from China and started my phd at December 2019. My research focus is on the usefulness of lactation curve modelling."
+  },
+  {
+    "objectID": "researchers/yongyan-chen.html#scholarly-publications",
+    "href": "researchers/yongyan-chen.html#scholarly-publications",
+    "title": "Curriculum Vitae - Yongyan Chen",
+    "section": "Scholarly publications",
+    "text": "Scholarly publications\nChen, Y., M. Hostens, M. Nielen, J. Ehrlich, and W. Steeneveld. 2022c. Herd level economic comparison between the shape of the lactation curve and 305 d milk production. Front. Vet. Sci. 9. doi:10.3389/fvets.2022.997962."
+  },
+  {
+    "objectID": "researchers/yongyan-chen.html#conference-proceedings-and-posters",
+    "href": "researchers/yongyan-chen.html#conference-proceedings-and-posters",
+    "title": "Curriculum Vitae - Yongyan Chen",
+    "section": "Conference proceedings and posters",
+    "text": "Conference proceedings and posters\nChen, Y., M. Hostens, M. Nielen, J. Ehrlich, and W. Steeneveld. 2021. An Empirical Analysis on the Association between Persistency of Dairy Cows and Economic Herd Performance. Page 72 in Isessah.\nChen, Y., M. Hostens, M. Nielen, J. Ehrlich, and W. Steeneveld. 2022a. An empirical analysis of economic herd performance in relation to herd lactation curve characteristics. Page 35 in Dair’Innov congress 2022.\nChen, Y., M. Hostens, M. Nielen, J. Ehrlich, and W. Steeneveld. 2022b. An empirical analysis of economic herd performance in relation to herd lactation curve characteristics. Pages 728–736 in European Conference on Precision Livestock Farming & International Conference on Precision Dairy Farming 2022."
   }
 ]
