@@ -1,0 +1,19 @@
+---
+title: "Curriculum Vitae - Peter Hut"
+subtitle: "Sense of sensors"
+categories:
+  - PhD
+  - Veterinary science
+  - Data science
+author: Peter Hut
+date: 07/01/23
+toc: true
+image: peter-hut-bio.png
+image-alt: Peter Hut
+language: 
+    section-title-footnotes: References
+---
+
+# PhD project
+
+[PhD Peter Hut](/researchers/pdfs/peter-hut-phd.pdf)

@@ -81,13 +81,14 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 ::: {.g-col-12 .g-col-md-4 .peter-hut}
 ### Peter Hut
 
-![](/files/img/researchers/PeterHut.png){width="200"}
+[![](/files/img/researchers/PeterHut.png){fig-align="left" width="200"}](peter-hut.html)
 :::
 
 ::: {.g-col-12 .g-col-md-4 .arno-liseune}
 ### Arno Liseune
 
 ![](/files/img/researchers/ArnoLiseune.png){width="200"}
+
 :::
 :::
 :::
