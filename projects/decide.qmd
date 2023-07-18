@@ -1,0 +1,31 @@
+---
+title: "Decide project"
+execute:
+  eval: false
+subtitle: "Data-driven control and prioritisation of non-EU-regulated contagious animal diseases"
+categories:
+  - Horizon2020
+  - Ongoing
+  - Cattle
+  - Pig
+  - Poultry
+authors: Saba Noor, Miel Hostens, et al.
+date: 07/01/21
+toc: false
+image: decide.webp
+image-alt: Anonymisation tuturial
+language: 
+    section-title-footnotes: References
+---
+
+## Summary
+
+Farmers, veterinarians and other animal health managers in the livestock and aquaculture sectors are currently missing information on the prevalence and burden of contagious animal diseases that are not regulated by the European Union.
+
+The diseases are estimated to cause 10-15% reduction in performance efficiency of livestock farming, resulting in large financial losses and lower sustainability as well as affect animal welfare.
+
+[DECIDE](https://decideproject.eu/), a five-year Horizon 2020 project, will develop data-driven decision support tools that offer robust and early signals of disease emergence and options for diagnostic confirmation. Moreover, options will be provided for controlling the disease along with their implications in terms of disease spread, economic burden and animal welfare.
+
+This partnership garners expertise in veterinary epidemiology and diagnostics, data science, mechanistic and predictive modelling, economics, animal welfare and social sciences. The consortium can also count on ample access to data from national animal health agencies, providers of veterinary services or farm equipment suppliers. This multidisciplinary consortium brings together 19 partners from 11 European countries.
+
+Our team is responsible for [Work Package 1](https://decideproject.eu/work-plan/)

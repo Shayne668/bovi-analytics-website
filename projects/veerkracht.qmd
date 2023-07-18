@@ -1,0 +1,20 @@
+---
+title: "Veerkracht project"
+execute:
+  eval: false
+categories:
+  - VLAIO
+  - Finished
+  - Cattle
+authors: Matthieu Salamone, Hadi Atashi, Miel Hostens, et al.
+date: 10/01/18
+toc: false
+image: veerkracht.png
+image-alt: Veerkracht
+language: 
+    section-title-footnotes: References
+---
+
+## Summary
+
+From an economic point of view, the 60 to 90 day period around calving has a major impact. This project therefore aims to create tools for the individual and dynamic follow-up of the transition success. These tools will enable the farmer to specifically identify and monitor risk animals and to take individual prevention measures to reduce the risk of problems during the transition period and to increase productivity and animal welfare. In the course of this project, the knowledge platform [www.koesensor.be](http://www.koesensor.be/uncategorized/nieuw-project-veerkracht/) will be further expanded with information about indicators, sensor technology and biomarkers to support transition management.
