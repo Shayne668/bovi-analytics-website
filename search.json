@@ -11,7 +11,7 @@
     "href": "researchers/miel-hostens.html#current-position",
     "title": "Curriculum Vitae - Miel Hostens",
     "section": "Current position",
-    "text": "Current position\nAssistant Professor at department of Population Health Sciences (0.9 FTE – Utrecht University) and at department of Laboratory for Animal Nutrition and Animal Product Quality (0.1 FTE – Ghent University) focusing on the creation of methodologies using precision dairy farming to monitor sustainable food production systems from a global perspective.\nCurrently selected for fast-track to associate professor in 2023 at Utrecht University."
+    "text": "Current position\nAssistant Professor at department of Population Health Sciences (0.9 FTE – Utrecht University) and at department of Laboratory for Animal Nutrition and Animal Product Quality (0.1 FTE – Ghent University) focusing on the creation of methodologies using precision dairy farming to monitor sustainable food production systems from a global perspective."
   },
   {
     "objectID": "researchers/miel-hostens.html#education",
@@ -165,7 +165,7 @@
     "href": "tools/index.html#clould-processing-when-data-doesnt-fit-on-prem",
     "title": "Tools",
     "section": "Clould processing (when data doesn’t fit on-prem)",
-    "text": "Clould processing (when data doesn’t fit on-prem)\n\nData processing framework\n\nPython and [R] can be easily used through Google Colab.\nPython, [R] and scala can be performed on Databricks Community for students. Apply for the community edition here, be sure not the click any of the providers (Google, Amazon, Azure) but select the ‘Get started with Community Edition’.\nWhen in need of larger scale processing power I love to use Apache Spark for distributed analysis and parallel processing using the Apache Spark on Azure Databricks.\nMicrosoft Azure ( https://azure.microsoft.com/nl-nl)."
+    "text": "Clould processing (when data doesn’t fit on-prem)\n\nData processing framework\n\nPython and [R] can be easily used through Google Colab.\nPython, [R] and scala can be performed on Databricks Community for students. Apply for the community edition here, be sure not the click any of the providers (Google, Amazon, Azure) but select the ‘Get started with Community Edition’.\nWhen in need of larger scale processing power I love to use Apache Spark for distributed analysis and parallel processing using the Apache Spark on Azure Databricks.\nMicrosoft Azure as current cloud platform."
   },
   {
     "objectID": "tools/index.html#others-tools",
