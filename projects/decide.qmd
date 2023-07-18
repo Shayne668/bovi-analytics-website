@@ -4,12 +4,14 @@ execute:
   eval: false
 subtitle: "Data-driven control and prioritisation of non-EU-regulated contagious animal diseases"
 categories:
-  - Horizon2020
+  - Horizon 2020
   - Ongoing
   - Cattle
   - Pig
   - Poultry
-authors: Saba Noor, Miel Hostens, et al.
+  - UGhent
+  - Utrecht University
+authors: Saba Noor, Yara Sleghers, Miel Hostens, et al.
 date: 07/01/21
 toc: false
 image: decide.webp
