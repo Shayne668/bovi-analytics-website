@@ -138,5 +138,40 @@
     "title": "Curriculum Vitae - Yongyan Chen",
     "section": "Conference proceedings and posters",
     "text": "Conference proceedings and posters\nChen, Y., M. Hostens, M. Nielen, J. Ehrlich, and W. Steeneveld. 2021. An Empirical Analysis on the Association between Persistency of Dairy Cows and Economic Herd Performance. Page 72 in Isessah.\nChen, Y., M. Hostens, M. Nielen, J. Ehrlich, and W. Steeneveld. 2022a. An empirical analysis of economic herd performance in relation to herd lactation curve characteristics. Page 35 in Dair’Innov congress 2022.\nChen, Y., M. Hostens, M. Nielen, J. Ehrlich, and W. Steeneveld. 2022b. An empirical analysis of economic herd performance in relation to herd lactation curve characteristics. Pages 728–736 in European Conference on Precision Livestock Farming & International Conference on Precision Dairy Farming 2022."
+  },
+  {
+    "objectID": "tools/index.html",
+    "href": "tools/index.html",
+    "title": "Tools",
+    "section": "",
+    "text": "In the early ages of my programming I started programming in VB.NEt, did most of my statistics in SAS for most of my PhD studies. However, as open source became mainstream I have switched (maybe to often). Nowadays, I tend to advice on using several languages. Once you know 1, switching is more easy. And there is always StackOverflow!\n\n[R] when using smaller datasets that need quick and dirty frequentist statistics. Often rendered using Rmd notebooks and pushed to Github, e.g.\n\nSalamone et al\n\nPython and PySpark for many of the neural net studies, e.g.\n\nvan Leerdam et al\n\nScala language when performing more complex data engeneering projects, e.g."
+  },
+  {
+    "objectID": "tools/index.html#programming-languages",
+    "href": "tools/index.html#programming-languages",
+    "title": "Tools",
+    "section": "",
+    "text": "In the early ages of my programming I started programming in VB.NEt, did most of my statistics in SAS for most of my PhD studies. However, as open source became mainstream I have switched (maybe to often). Nowadays, I tend to advice on using several languages. Once you know 1, switching is more easy. And there is always StackOverflow!\n\n[R] when using smaller datasets that need quick and dirty frequentist statistics. Often rendered using Rmd notebooks and pushed to Github, e.g.\n\nSalamone et al\n\nPython and PySpark for many of the neural net studies, e.g.\n\nvan Leerdam et al\n\nScala language when performing more complex data engeneering projects, e.g."
+  },
+  {
+    "objectID": "tools/index.html#local-processing-when-data-fits-on-prem",
+    "href": "tools/index.html#local-processing-when-data-fits-on-prem",
+    "title": "Tools",
+    "section": "Local processing (when data fits on-prem)",
+    "text": "Local processing (when data fits on-prem)\n\nDevelopment environments\nFor my local processsing, I combine multiple IDE’s. I tried one-size-fits-all approaches such as visual studio but ended up using the following options.\n\nPython -&gt; Pycharm -&gt; Jupyter notebook\n[R] -&gt; R Studio\nScala -&gt; IntelliJ IDEA"
+  },
+  {
+    "objectID": "tools/index.html#clould-processing-when-data-doesnt-fit-on-prem",
+    "href": "tools/index.html#clould-processing-when-data-doesnt-fit-on-prem",
+    "title": "Tools",
+    "section": "Clould processing (when data doesn’t fit on-prem)",
+    "text": "Clould processing (when data doesn’t fit on-prem)\n\nData processing framework\n\nPython and [R] can be easily used through Google Colab.\nPython, [R] and scala can be performed on Databricks Community for students. Apply for the community edition here, be sure not the click any of the providers (Google, Amazon, Azure) but select the ‘Get started with Community Edition’.\nWhen in need of larger scale processing power I love to use Apache Spark for distributed analysis and parallel processing using the Apache Spark on Azure Databricks.\nMicrosoft Azure ( https://azure.microsoft.com/nl-nl)."
+  },
+  {
+    "objectID": "tools/index.html#others-tools",
+    "href": "tools/index.html#others-tools",
+    "title": "Tools",
+    "section": "Others tools",
+    "text": "Others tools\n\nGithub as code repository, this website is hosted through github pages.\nThis website is build using Quarto, a new tool integrated well in R studio and others.\nMarkdown ( https://www.markdownguide.org/ )."
   }
 ]

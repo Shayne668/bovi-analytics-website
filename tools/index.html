@@ -8,7 +8,7 @@
 
 <meta name="description" content="Use modern data analytical tools for dairy science">
 
-<title>Bovi-Analytics - Projects</title>
+<title>Bovi-Analytics - Tools</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -63,15 +63,15 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Bovi-Analytics - Projects">
-<meta property="og:description" content="Coming soon">
+<meta property="og:title" content="Bovi-Analytics - Tools">
+<meta property="og:description" content="Which tools are commony used by collaborators">
 <meta property="og:image" content="https://github.com/Bovi-analytics/bovi-analytics-website/files/social-image-f22.png">
 <meta property="og:site-name" content="Bovi-Analytics">
 <meta property="og:locale" content="en_US">
 <meta property="og:image:height" content="640">
 <meta property="og:image:width" content="1280">
-<meta name="twitter:title" content="Bovi-Analytics - Projects">
-<meta name="twitter:description" content="Coming soon">
+<meta name="twitter:title" content="Bovi-Analytics - Tools">
+<meta name="twitter:description" content="Which tools are commony used by collaborators">
 <meta name="twitter:image" content="https://github.com/Bovi-analytics/bovi-analytics-website/files/social-image-f22.png">
 <meta name="twitter:creator" content="@MielHostens">
 <meta name="twitter:card" content="summary_large_image">
@@ -129,14 +129,31 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#programming-languages" id="toc-programming-languages" class="nav-link active" data-scroll-target="#programming-languages"><strong>Programming languages</strong></a></li>
+  <li><a href="#local-processing-when-data-fits-on-prem" id="toc-local-processing-when-data-fits-on-prem" class="nav-link" data-scroll-target="#local-processing-when-data-fits-on-prem">Local processing (when data fits on-prem)</a>
+  <ul class="collapse">
+  <li><a href="#development-environments" id="toc-development-environments" class="nav-link" data-scroll-target="#development-environments"><strong>Development environments</strong></a></li>
+  </ul></li>
+  <li><a href="#clould-processing-when-data-doesnt-fit-on-prem" id="toc-clould-processing-when-data-doesnt-fit-on-prem" class="nav-link" data-scroll-target="#clould-processing-when-data-doesnt-fit-on-prem">Clould processing (when data doesn’t fit on-prem)</a>
+  <ul class="collapse">
+  <li><a href="#data-processing-framework" id="toc-data-processing-framework" class="nav-link" data-scroll-target="#data-processing-framework"><strong>Data processing framework</strong></a></li>
+  </ul></li>
+  <li><a href="#others-tools" id="toc-others-tools" class="nav-link" data-scroll-target="#others-tools"><strong>Others tools</strong></a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
-<p class="subtitle lead">Coming soon</p>
+<h1 class="title">Tools</h1>
+<p class="subtitle lead">Which tools are commony used by collaborators</p>
 </div>
 
 
@@ -151,8 +168,55 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="programming-languages" class="level2">
+<h2 class="anchored" data-anchor-id="programming-languages"><strong>Programming languages</strong></h2>
+<p>In the early ages of my programming I started programming in VB.NEt, did most of my statistics in SAS for most of my PhD studies. However, as open source became mainstream I have switched (maybe to often). Nowadays, I tend to advice on using several languages. Once you know 1, switching is more easy. And there is always <a href="https://stackoverflow.com/">StackOverflow</a>!</p>
+<ul>
+<li><p><a href="https://www.r-project.org/other-docs.html" class="uri">[R]</a> when using smaller datasets that need quick and dirty frequentist statistics. Often rendered using <a href="https://rmarkdown.rstudio.com/lesson-10.html">Rmd notebooks</a> and pushed to Github, e.g.</p>
+<ul>
+<li><a href="https://github.com/Bovi-analytics/Salamone-et-al-2023">Salamone et al</a></li>
+</ul></li>
+<li><p><a href="https://docs.python.org/3/" class="uri">Python</a> and <a href="https://spark.apache.org/docs/latest/api/python/">PySpark</a> for many of the neural net studies, e.g.</p>
+<ul>
+<li><a href="https://github.com/Bovi-analytics/van-leerdam-et-al">van Leerdam et al</a></li>
+</ul></li>
+<li><p><a href="https://docs.scala-lang.org/" class="uri">Scala language</a> when performing more complex data engeneering projects, e.g.</p></li>
+</ul>
+</section>
+<section id="local-processing-when-data-fits-on-prem" class="level2">
+<h2 class="anchored" data-anchor-id="local-processing-when-data-fits-on-prem">Local processing (when data fits on-prem)</h2>
+<section id="development-environments" class="level3">
+<h3 class="anchored" data-anchor-id="development-environments"><strong>Development environments</strong></h3>
+<p>For my local processsing, I combine multiple IDE’s. I tried one-size-fits-all approaches such as visual studio but ended up using the following options.</p>
+<ul>
+<li><p>Python -&gt; <a href="https://www.jetbrains.com/pycharm/">Pycharm</a> -&gt; <a href="https://jupyter.org/" class="uri">Jupyter notebook</a></p></li>
+<li><p>[R] -&gt; <a href="https://posit.co/download/rstudio-desktop/" class="uri">R Studio</a></p></li>
+<li><p>Scala -&gt; <a href="https://www.jetbrains.com/idea/">IntelliJ IDEA</a></p></li>
+</ul>
+</section>
+</section>
+<section id="clould-processing-when-data-doesnt-fit-on-prem" class="level2">
+<h2 class="anchored" data-anchor-id="clould-processing-when-data-doesnt-fit-on-prem">Clould processing (when data doesn’t fit on-prem)</h2>
+<section id="data-processing-framework" class="level3">
+<h3 class="anchored" data-anchor-id="data-processing-framework"><strong>Data processing framework</strong></h3>
+<ul>
+<li><p>Python and [R] can be easily used through <a href="https://colab.google/" class="uri">Google Colab</a>.</p></li>
+<li><p>Python, [R] and scala can be performed on <a href="https://community.cloud.databricks.com/">Databricks Community for students</a>. Apply for the community edition <a href="https://docs.databricks.com/getting-started/community-edition.html">here</a>, be sure not the click any of the providers (Google, Amazon, Azure) but select the <strong>‘Get started with Community Edition’.</strong></p></li>
+<li><p>When in need of larger scale processing power I love to use Apache Spark for distributed analysis and parallel processing using the <a href="https://spark.apache.org/">Apache Spark</a> on <a href="https://azure.microsoft.com/en-us/products/databricks">Azure Databricks</a>.</p></li>
+<li><p>Microsoft Azure ( <a href="https://azure.microsoft.com/nl-nl"><u>https://azure.microsoft.com/nl-nl</u></a>).</p></li>
+</ul>
+</section>
+</section>
+<section id="others-tools" class="level2">
+<h2 class="anchored" data-anchor-id="others-tools"><strong>Others tools</strong></h2>
+<ul>
+<li><a href="https://github.com/" class="uri">Github</a> as code repository, this website is hosted through github pages.</li>
+<li>This website is build using <a href="https://quarto.org/" class="uri">Quarto</a>, a new tool integrated well in R studio and others.</li>
+<li>Markdown ( <a href="https://www.markdownguide.org/" class="uri">https://www.markdownguide.org/</a> ).</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
