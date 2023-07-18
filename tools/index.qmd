@@ -1,12 +1,89 @@
 ---
-title: "Projects"
-subtitle: "Coming soon"
+title: "Tools"
+subtitle: "Which tools are commony used by collaborators"
 sidebar: false
-toc: false
+toc: true
 page-layout: full
 format:
   html:
     template-partials:
       - html/home/title-block.html
 course-logo: /files/img/Bovi-Analytics-SmallLogo.png
+editor: 
+  markdown: 
+    wrap: 72
 ---
+
+## **Programming languages**
+
+In the early ages of my programming I started programming in VB.NEt, did
+most of my statistics in SAS for most of my PhD studies. However, as
+open source became mainstream I have switched (maybe to often).
+Nowadays, I tend to advice on using several languages. Once you know 1,
+switching is more easy. And there is always
+[StackOverflow](https://stackoverflow.com/)!
+
+-   [\[R\]](https://www.r-project.org/other-docs.html){.uri} when using
+    smaller datasets that need quick and dirty frequentist statistics.
+    Often rendered using [Rmd
+    notebooks](https://rmarkdown.rstudio.com/lesson-10.html) and pushed
+    to Github, e.g.
+
+    -   [Salamone et
+        al](https://github.com/Bovi-analytics/Salamone-et-al-2023)
+
+-   [Python](https://docs.python.org/3/){.uri} and
+    [PySpark](https://spark.apache.org/docs/latest/api/python/) for many
+    of the neural net studies, e.g.
+
+    -   [van Leerdam et
+        al](https://github.com/Bovi-analytics/van-leerdam-et-al)
+
+-   [Scala language](https://docs.scala-lang.org/){.uri} when performing
+    more complex data engeneering projects, e.g.
+
+## Local processing (when data fits on-prem)
+
+### **Development environments**
+
+For my local processsing, I combine multiple IDE's. I tried
+one-size-fits-all approaches such as visual studio but ended up using
+the following options.
+
+-   Python -\> [Pycharm](https://www.jetbrains.com/pycharm/) -\>
+    [Jupyter notebook](https://jupyter.org/){.uri}
+
+-   \[R\] -\> [R
+    Studio](https://posit.co/download/rstudio-desktop/){.uri}
+
+-   Scala -\> [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+
+## Clould processing (when data doesn't fit on-prem)
+
+### **Data processing framework**
+
+-   Python and \[R\] can be easily used through [Google
+    Colab](https://colab.google/){.uri}.
+
+-   Python, \[R\] and scala can be performed on [Databricks Community
+    for students](https://community.cloud.databricks.com/). Apply for
+    the community edition
+    [here](https://docs.databricks.com/getting-started/community-edition.html),
+    be sure not the click any of the providers (Google, Amazon, Azure)
+    but select the **'Get started with Community Edition'.**
+
+-   When in need of larger scale processing power I love to use Apache
+    Spark for distributed analysis and parallel processing using the
+    [Apache Spark](https://spark.apache.org/) on [Azure
+    Databricks](https://azure.microsoft.com/en-us/products/databricks).
+
+-   Microsoft Azure (
+    [[https://azure.microsoft.com/nl-nl]{.underline}](https://azure.microsoft.com/nl-nl)).
+
+## **Others tools**
+
+-   [Github](https://github.com/){.uri} as code repository, this website
+    is hosted through github pages.
+-   This website is build using [Quarto](https://quarto.org/){.uri}, a
+    new tool integrated well in R studio and others.
+-   Markdown ( <https://www.markdownguide.org/> ).
