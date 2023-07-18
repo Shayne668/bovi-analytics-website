@@ -16,11 +16,11 @@ language:
 
 ![](images/miel-hostens-bio.jpg)
 
+{{< video https://www.youtube.com/watch?v=mEnP4GJVhRM >}}
+
 ## Current position
 
 **Assistant Professor** at department of Population Health Sciences (0.9 FTE -- Utrecht University) and at department of Laboratory for Animal Nutrition and Animal Product Quality (0.1 FTE -- Ghent University) focusing on the creation of methodologies using precision dairy farming to monitor sustainable food production systems from a global perspective.
-
-Currently selected for **fast-track to associate professor** in 2023 at Utrecht University.
 
 ## Education
 
@@ -30,7 +30,7 @@ Currently selected for **fast-track to associate professor** in 2023 at Utrecht 
 
 -   "Health and Fertility Challenges in High Yielding Dairy Cows during the Transition Period and the Use of Dietary Fatty Acids as an Optimization Strategy"
 
--   Master in Veterinary Medicine, University of Ghent, 2006 (*cum laud*e).
+-   Master in Veterinary Medicine, University of Ghent, 2006 (*cum laude*).
 
 -   Bachelor in Veterinary Medicine, University of Ghent,2003 (*cum laude*).
 
@@ -38,7 +38,7 @@ Currently selected for **fast-track to associate professor** in 2023 at Utrecht 
 
 -   **Jenne De Koster** (2016), PhD title: "Influence of body condition score of dairy cows at the end of pregnancy on peripheral tissue insulin response and metabolic properties of adipose tissue".
 
--   **Peter Hut** (2022), PhD title: "Sense of Sensors -- Monitoring Behaviour of Dairy Cows" focusing on using sensor technology in transition dairy cows.
+-   [**Peter Hut**](peter-hut.html) (2022), PhD title: "Sense of Sensors -- Monitoring Behaviour of Dairy Cows" focusing on using sensor technology in transition dairy cows.
 
 -   **Arno Liseune** (2022), PhD title: "Using deep learning for animal monitoring to improve animal welfare in dairy cattle".
 
@@ -46,7 +46,7 @@ Currently selected for **fast-track to associate professor** in 2023 at Utrecht 
 
 -   **Matthieu Salamone**, a PhD focusing on "The transition period as time window to monitor the nutritional and metabolic resilience of high productive dairy cattle -- Predictive milk production".
 
--   **Chen YongYan**, a PhD focusing on the non-linear lactation curve and weight loss modelling in dairy cows.
+-   [**Chen YongYan**](yongyan-chen.html), a PhD focusing on the non-linear lactation curve and weight loss modelling in dairy cows.
 
 ## Ongoing PhD supervision
 
@@ -588,17 +588,17 @@ Mother tongue : Dutch
 
 Other:
 
-+-------------+---------------+----------+---------+
-|             | Understanding | Speaking | Writing |
-+-------------+---------------+----------+---------+
-| English     | +++           | +++      | +++     |
-+-------------+---------------+----------+---------+
-| French      | ++            | \+       | ±       |
-+-------------+---------------+----------+---------+
-| German      | ±             | ±        | \-      |
-+-------------+---------------+----------+---------+
-| Italian     | ±             | ±        | \-      |
-+-------------+---------------+----------+---------+
++-----------+---------------+-----------+-----------+
+|           | Understanding | Speaking  | Writing   |
++-----------+---------------+-----------+-----------+
+| English   | +++           | +++       | +++       |
++-----------+---------------+-----------+-----------+
+| French    | ++            | \+        | ±         |
++-----------+---------------+-----------+-----------+
+| German    | ±             | ±         | \-        |
++-----------+---------------+-----------+-----------+
+| Italian   | ±             | ±         | \-        |
++-----------+---------------+-----------+-----------+
 
 ## Datascience skills
 
