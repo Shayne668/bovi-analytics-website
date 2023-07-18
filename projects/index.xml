@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Bovi-Analytics</title>
+<link>https://github.com/Bovi-analytics/bovi-analytics-website/projects/index.html</link>
+<atom:link href="https://github.com/Bovi-analytics/bovi-analytics-website/projects/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.3.353</generator>
+<lastBuildDate>Wed, 30 Jun 2021 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Decide project</title>
+  <link>https://github.com/Bovi-analytics/bovi-analytics-website/projects/decide.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>Farmers, veterinarians and other animal health managers in the livestock and aquaculture sectors are currently missing information on the prevalence and burden of contagious animal diseases that are not regulated by the European Union.</p>
+<p>The diseases are estimated to cause 10-15% reduction in performance efficiency of livestock farming, resulting in large financial losses and lower sustainability as well as affect animal welfare.</p>
+<p><a href="https://decideproject.eu/">DECIDE</a>, a five-year Horizon 2020 project, will develop data-driven decision support tools that offer robust and early signals of disease emergence and options for diagnostic confirmation. Moreover, options will be provided for controlling the disease along with their implications in terms of disease spread, economic burden and animal welfare.</p>
+<p>This partnership garners expertise in veterinary epidemiology and diagnostics, data science, mechanistic and predictive modelling, economics, animal welfare and social sciences. The consortium can also count on ample access to data from national animal health agencies, providers of veterinary services or farm equipment suppliers. This multidisciplinary consortium brings together 19 partners from 11 European countries.</p>
+<p>Our team is responsible for <a href="https://decideproject.eu/work-plan/">Work Package 1</a></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Horizon2020</category>
+  <category>Ongoing</category>
+  <category>Cattle</category>
+  <category>Pig</category>
+  <category>Poultry</category>
+  <guid>https://github.com/Bovi-analytics/bovi-analytics-website/projects/decide.html</guid>
+  <pubDate>Wed, 30 Jun 2021 22:00:00 GMT</pubDate>
+  <media:content url="https://github.com/Bovi-analytics/bovi-analytics-website/projects/decide.webp" medium="image" type="image/webp"/>
+</item>
+<item>
+  <title>Veerkracht project</title>
+  <link>https://github.com/Bovi-analytics/bovi-analytics-website/projects/veerkracht.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>From an economic point of view, the 60 to 90 day period around calving has a major impact. This project therefore aims to create tools for the individual and dynamic follow-up of the transition success. These tools will enable the farmer to specifically identify and monitor risk animals and to take individual prevention measures to reduce the risk of problems during the transition period and to increase productivity and animal welfare. In the course of this project, the knowledge platform <a href="http://www.koesensor.be/uncategorized/nieuw-project-veerkracht/">www.koesensor.be</a> will be further expanded with information about indicators, sensor technology and biomarkers to support transition management.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>VLAIO</category>
+  <category>Finished</category>
+  <category>Cattle</category>
+  <guid>https://github.com/Bovi-analytics/bovi-analytics-website/projects/veerkracht.html</guid>
+  <pubDate>Sun, 30 Sep 2018 22:00:00 GMT</pubDate>
+  <media:content url="https://github.com/Bovi-analytics/bovi-analytics-website/projects/veerkracht.png" medium="image" type="image/png" height="79" width="144"/>
+</item>
+</channel>
+</rss>
