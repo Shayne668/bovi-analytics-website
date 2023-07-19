@@ -23,7 +23,8 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .matthieu-salamone}
 ### Matthieu Salamone
 
-![](/files/img/researchers/MatthieuSalamone.png){width="200"}
+[![](/files/img/researchers/MatthieuSalamone.png){fig-align="left" width="200"}](mattieu-salamone.html)
+
 :::
 
 ::: {.g-col-12 .g-col-md-4 .yongyan-chen}

@@ -342,6 +342,12 @@ Active involvement in extension services for several Belgian, European and globa
 
 -   Detecting the subclinical diseased transition cow: how novel phenotyping strategies can help. Elanco Scientific Symposium 2021. Rotterdam. The Netherlands.
 
+-   Prediction of persistency at day 305 in lactation at the moment of the insemination
+    decision. ICAR Conference 2023. Toledo. Spain.
+
+-   A predictive model for hypocalcemia in dairy cows utilizing behavioural sensor
+    data combined with deep learning. ADSA Annual Meeting. 2023. Ottawa. Canada.
+
 ### Extension workshops
 
 -   How we practitioners should implement our nutrition knowledge to help our farmers? 2011. Workshop on the 6^th^ European Congress of Bovine Health Management, Liège, Belgium.
@@ -410,7 +416,9 @@ Active involvement in extension services for several Belgian, European and globa
 
 -   GplusE Training School, 2018. Bucarest, Roumania/ Madrid, Spain.
 
--   Not only a success story: A workshop on lessons learned from the past and what is really needed to move from precision to smart dairy farming! Workshop on the 10^th^ ECPLF conference. Vienna, Austria.
+-   Not only a success story: A workshop on lessons learned from the past and what is really needed to move from precision to smart dairy farming! Workshop on the 10^th^ ECPLF conference. Vienna, Austria. 2022.
+
+-   Sustainable Ruminant Health. How to manage it successfully. 2023. Utrecht. \[[Link to presentation](https://prezi.com/view/mPsEJBmrGvacshFmgKkx/)\]
 
 ## Professional supplementary training and education
 
@@ -588,17 +596,13 @@ Mother tongue : Dutch
 
 Other:
 
-+-----------+---------------+-----------+-----------+
-|           | Understanding | Speaking  | Writing   |
-+-----------+---------------+-----------+-----------+
-| English   | +++           | +++       | +++       |
-+-----------+---------------+-----------+-----------+
-| French    | ++            | \+        | ±         |
-+-----------+---------------+-----------+-----------+
-| German    | ±             | ±         | \-        |
-+-----------+---------------+-----------+-----------+
-| Italian   | ±             | ±         | \-        |
-+-----------+---------------+-----------+-----------+
+|         |               |          |         |
+|---------|---------------|----------|---------|
+|         | Understanding | Speaking | Writing |
+| English | +++           | +++      | +++     |
+| French  | ++            | \+       | ±       |
+| German  | ±             | ±        | \-      |
+| Italian | ±             | ±        | \-      |
 
 ## Datascience skills
 
