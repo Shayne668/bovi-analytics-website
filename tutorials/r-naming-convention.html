@@ -6,11 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Peter Hut">
-<meta name="dcterms.date" content="2023-07-01">
+<meta name="dcterms.date" content="2023-08-02">
 <meta name="description" content="Use modern data analytical tools for dairy science">
 
-<title>Bovi-Analytics - Curriculum Vitae - Peter Hut</title>
+<title>Bovi-Analytics - R naming convention</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -65,22 +98,20 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Bovi-Analytics - Curriculum Vitae - Peter Hut">
-<meta property="og:description" content="Sense of sensors">
+<meta property="og:title" content="Bovi-Analytics - R naming convention">
+<meta property="og:description" content="">
 <meta property="og:image" content="https://github.com/Bovi-analytics/bovi-analytics-website/files/social-image-f22.png">
 <meta property="og:site-name" content="Bovi-Analytics">
 <meta property="og:locale" content="en_US">
 <meta property="og:image:height" content="640">
 <meta property="og:image:width" content="1280">
-<meta property="og:image:alt" content="Peter Hut">
-<meta name="twitter:title" content="Bovi-Analytics - Curriculum Vitae - Peter Hut">
-<meta name="twitter:description" content="Sense of sensors">
+<meta name="twitter:title" content="Bovi-Analytics - R naming convention">
+<meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://github.com/Bovi-analytics/bovi-analytics-website/files/social-image-f22.png">
 <meta name="twitter:creator" content="@MielHostens">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image-height" content="640">
 <meta name="twitter:image-width" content="1280">
-<meta name="twitter:image:alt" content="Peter Hut">
 </head>
 
 <body class="nav-fixed">
@@ -142,7 +173,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#phd-project" id="toc-phd-project" class="nav-link active" data-scroll-target="#phd-project">PhD project</a></li>
+  <li><a href="#r-naming-convention" id="toc-r-naming-convention" class="nav-link active" data-scroll-target="#r-naming-convention">R naming convention</a>
+  <ul class="collapse">
+  <li><a href="#object-names" id="toc-object-names" class="nav-link" data-scroll-target="#object-names">1. Object Names</a></li>
+  <li><a href="#function-names" id="toc-function-names" class="nav-link" data-scroll-target="#function-names">2. Function Names</a></li>
+  <li><a href="#constant-names" id="toc-constant-names" class="nav-link" data-scroll-target="#constant-names">3. Constant Names</a></li>
+  <li><a href="#package-names" id="toc-package-names" class="nav-link" data-scroll-target="#package-names">4. Package Names</a></li>
+  <li><a href="#logical-names-for-boolean-variables" id="toc-logical-names-for-boolean-variables" class="nav-link" data-scroll-target="#logical-names-for-boolean-variables">5. Logical Names for Boolean Variables</a></li>
+  <li><a href="#use-consistent-abbreviations" id="toc-use-consistent-abbreviations" class="nav-link" data-scroll-target="#use-consistent-abbreviations">6. Use Consistent Abbreviations</a></li>
+  <li><a href="#avoid-reserved-keywords" id="toc-avoid-reserved-keywords" class="nav-link" data-scroll-target="#avoid-reserved-keywords">7. Avoid Reserved Keywords</a></li>
+  <li><a href="#avoid-using-dots-in-names" id="toc-avoid-using-dots-in-names" class="nav-link" data-scroll-target="#avoid-using-dots-in-names">8. Avoid Using Dots in Names</a></li>
+  <li><a href="#indentation-and-spacing" id="toc-indentation-and-spacing" class="nav-link" data-scroll-target="#indentation-and-spacing">9. Indentation and Spacing</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -151,12 +193,10 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Curriculum Vitae - Peter Hut</h1>
-<p class="subtitle lead">Sense of sensors</p>
+<h1 class="title">R naming convention</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">PhD</div>
-    <div class="quarto-category">Veterinary science</div>
-    <div class="quarto-category">Data science</div>
+    <div class="quarto-category">Best practice</div>
+    <div class="quarto-category">R</div>
   </div>
   </div>
 
@@ -167,14 +207,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Peter Hut </p>
+             <p>Miel Hostens, et al. </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 1, 2023</p>
+      <p class="date">August 2, 2023</p>
     </div>
   </div>
   
@@ -184,11 +224,89 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="phd-project" class="level1">
-<h1>PhD project</h1>
-<p><a href="../researchers/pdfs/peter-hut-phd.pdf">PhD Peter Hut</a></p>
+<section id="r-naming-convention" class="level1">
+<h1>R naming convention</h1>
+<p>In R, following consistent naming conventions is crucial for writing clean and readable code. While R doesn’t have strict guidelines like some other languages, there are some commonly adopted conventions that you can follow. Here are some recommendations for R naming conventions:</p>
+<section id="object-names" class="level3">
+<h3 class="anchored" data-anchor-id="object-names">1. Object Names</h3>
+<p>Use descriptive and meaningful names for variables, functions, and objects. Name variables using lowercase letters and separate words with underscores (snake_case).</p>
+<p><strong>Example:</strong></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>user_name <span class="ot">&lt;-</span> <span class="st">"John"</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>calculate_average_score <span class="ot">&lt;-</span> <span class="cf">function</span>(scores) {</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="co"># ...</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="function-names" class="level3">
+<h3 class="anchored" data-anchor-id="function-names">2. Function Names</h3>
+<p>Functions in R should be named in lowercase using descriptive verbs. If the function name includes multiple words, use underscores to separate them.</p>
+<p><strong>Example:</strong></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>calculate_average_score <span class="ot">&lt;-</span> <span class="cf">function</span>(scores) {</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="co"># ...</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="constant-names" class="level3">
+<h3 class="anchored" data-anchor-id="constant-names">3. Constant Names</h3>
+<p>For constants, use uppercase letters and separate words with underscores. R doesn’t have built-in constants, but you can treat uppercase variables as constants to indicate their unchangeable nature.</p>
+<p><strong>Example:</strong></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>MAX_ATTEMPTS <span class="ot">&lt;-</span> <span class="dv">3</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>PI <span class="ot">&lt;-</span> <span class="fl">3.14159</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="package-names" class="level3">
+<h3 class="anchored" data-anchor-id="package-names">4. Package Names</h3>
+<p>Package names should be in lowercase. When creating your own R packages, follow the lowercase convention for package names.</p>
+<p><strong>Example:</strong></p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"my_package"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="logical-names-for-boolean-variables" class="level3">
+<h3 class="anchored" data-anchor-id="logical-names-for-boolean-variables">5. Logical Names for Boolean Variables</h3>
+<p>When naming boolean variables (logical values), use descriptive names that represent the true/false nature of the variable.</p>
+<p><strong>Example:</strong></p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>is_student <span class="ot">&lt;-</span> <span class="cn">TRUE</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>has_permission <span class="ot">&lt;-</span> <span class="cn">FALSE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="use-consistent-abbreviations" class="level3">
+<h3 class="anchored" data-anchor-id="use-consistent-abbreviations">6. Use Consistent Abbreviations</h3>
+<p>In R, it is common to use abbreviations for long function names, but try to use consistent and widely understood abbreviations.</p>
+<p><strong>Example:</strong></p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>calc_avg_score <span class="ot">&lt;-</span> <span class="cf">function</span>(scores) { <span class="co"># Shortened "calculate" to "calc"</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="co"># ...</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="avoid-reserved-keywords" class="level3">
+<h3 class="anchored" data-anchor-id="avoid-reserved-keywords">7. Avoid Reserved Keywords</h3>
+<p>Avoid using reserved keywords or function names as variable names, as it can lead to confusion and unexpected behavior.</p>
+<p><strong>Bad Example:</strong></p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Avoid using 'mean' as a variable name, as it's a built-in function.</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>mean <span class="ot">&lt;-</span> <span class="dv">42</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="avoid-using-dots-in-names" class="level3">
+<h3 class="anchored" data-anchor-id="avoid-using-dots-in-names">8. Avoid Using Dots in Names</h3>
+<p>While R allows you to use dots in variable names, it’s generally recommended to avoid them as it can cause ambiguity and confusion.</p>
+<p><strong>Bad Example:</strong></p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>my.variable <span class="ot">&lt;-</span> <span class="dv">10</span>   <span class="co"># Avoid using dots in variable names.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="indentation-and-spacing" class="level3">
+<h3 class="anchored" data-anchor-id="indentation-and-spacing">9. Indentation and Spacing</h3>
+<p>Maintain consistent indentation and spacing in your code for better readability.</p>
+<p><strong>Example:</strong></p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Good indentation and spacing</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (condition) {</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="co"># ...</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> {</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  <span class="co"># ...</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Bad indentation and spacing</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span>(condition){</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a><span class="co">#...</span></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>}<span class="cf">else</span>{</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a><span class="co">#...</span></span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>By adhering to these naming conventions, your R code will be more readable, maintainable, and easier for others to collaborate with. Consistency in naming can make a significant difference in the understandability of your R projects. Happy coding in R!</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

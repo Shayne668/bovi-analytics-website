@@ -5,5 +5,15 @@
       "/projects/decide.html",
       "/projects/veerkracht.html"
     ]
+  },
+  {
+    "listing": "/tutorials/index.html",
+    "items": [
+      "/tutorials/general-naming-convention.html",
+      "/tutorials/python-naming-convention.html",
+      "/tutorials/r-naming-convention.html",
+      "/tutorials/scala-naming-convention.html",
+      "/tutorials/slack.html"
+    ]
   }
 ]

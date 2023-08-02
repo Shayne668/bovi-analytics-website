@@ -6,11 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Peter Hut">
-<meta name="dcterms.date" content="2023-07-01">
+<meta name="dcterms.date" content="2023-08-02">
 <meta name="description" content="Use modern data analytical tools for dairy science">
 
-<title>Bovi-Analytics - Curriculum Vitae - Peter Hut</title>
+<title>Bovi-Analytics - Scala naming convention</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -65,22 +98,20 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Bovi-Analytics - Curriculum Vitae - Peter Hut">
-<meta property="og:description" content="Sense of sensors">
+<meta property="og:title" content="Bovi-Analytics - Scala naming convention">
+<meta property="og:description" content="">
 <meta property="og:image" content="https://github.com/Bovi-analytics/bovi-analytics-website/files/social-image-f22.png">
 <meta property="og:site-name" content="Bovi-Analytics">
 <meta property="og:locale" content="en_US">
 <meta property="og:image:height" content="640">
 <meta property="og:image:width" content="1280">
-<meta property="og:image:alt" content="Peter Hut">
-<meta name="twitter:title" content="Bovi-Analytics - Curriculum Vitae - Peter Hut">
-<meta name="twitter:description" content="Sense of sensors">
+<meta name="twitter:title" content="Bovi-Analytics - Scala naming convention">
+<meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://github.com/Bovi-analytics/bovi-analytics-website/files/social-image-f22.png">
 <meta name="twitter:creator" content="@MielHostens">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image-height" content="640">
 <meta name="twitter:image-width" content="1280">
-<meta name="twitter:image:alt" content="Peter Hut">
 </head>
 
 <body class="nav-fixed">
@@ -142,7 +173,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#phd-project" id="toc-phd-project" class="nav-link active" data-scroll-target="#phd-project">PhD project</a></li>
+  <li><a href="#scala-naming-convention" id="toc-scala-naming-convention" class="nav-link active" data-scroll-target="#scala-naming-convention">Scala naming convention</a>
+  <ul class="collapse">
+  <li><a href="#package-names" id="toc-package-names" class="nav-link" data-scroll-target="#package-names">1. Package Names</a></li>
+  <li><a href="#object-and-class-names" id="toc-object-and-class-names" class="nav-link" data-scroll-target="#object-and-class-names">2. Object and Class Names</a></li>
+  <li><a href="#trait-names" id="toc-trait-names" class="nav-link" data-scroll-target="#trait-names">3. Trait Names</a></li>
+  <li><a href="#variable-and-method-names" id="toc-variable-and-method-names" class="nav-link" data-scroll-target="#variable-and-method-names">4. Variable and Method Names</a></li>
+  <li><a href="#constant-names" id="toc-constant-names" class="nav-link" data-scroll-target="#constant-names">5. Constant Names</a></li>
+  <li><a href="#type-parameter-names" id="toc-type-parameter-names" class="nav-link" data-scroll-target="#type-parameter-names">6. Type Parameter Names</a></li>
+  <li><a href="#enumerations-sealed-traits" id="toc-enumerations-sealed-traits" class="nav-link" data-scroll-target="#enumerations-sealed-traits">7. Enumerations (Sealed Traits)</a></li>
+  <li><a href="#package-object" id="toc-package-object" class="nav-link" data-scroll-target="#package-object">8. Package Object</a></li>
+  <li><a href="#indentation-and-bracing" id="toc-indentation-and-bracing" class="nav-link" data-scroll-target="#indentation-and-bracing">9. Indentation and Bracing</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -151,12 +193,10 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Curriculum Vitae - Peter Hut</h1>
-<p class="subtitle lead">Sense of sensors</p>
+<h1 class="title">Scala naming convention</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">PhD</div>
-    <div class="quarto-category">Veterinary science</div>
-    <div class="quarto-category">Data science</div>
+    <div class="quarto-category">Best practice</div>
+    <div class="quarto-category">Scala</div>
   </div>
   </div>
 
@@ -167,14 +207,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Peter Hut </p>
+             <p>Miel Hostens, et al. </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 1, 2023</p>
+      <p class="date">August 2, 2023</p>
     </div>
   </div>
   
@@ -184,11 +224,99 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="phd-project" class="level1">
-<h1>PhD project</h1>
-<p><a href="../researchers/pdfs/peter-hut-phd.pdf">PhD Peter Hut</a></p>
+<section id="scala-naming-convention" class="level1">
+<h1>Scala naming convention</h1>
+<p>Scala also follows certain naming conventions that help maintain consistency and improve code readability. Here are some recommendations for Scala naming conventions:</p>
+<section id="package-names" class="level2">
+<h2 class="anchored" data-anchor-id="package-names">1. Package Names</h2>
+<p>Package names should be in all lowercase and follow the reverse domain name convention (similar to Java). Use meaningful and descriptive package names that represent the content of the package.</p>
+<p><strong>Example:</strong></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">package</span> com<span class="op">.</span>example<span class="op">.</span>myapp<span class="op">.</span>models</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="object-and-class-names" class="level2">
+<h2 class="anchored" data-anchor-id="object-and-class-names">2. Object and Class Names</h2>
+<p>Class and object names should follow the PascalCase convention, starting with an uppercase letter. Use nouns or noun phrases that describe the entity.</p>
+<p><strong>Example:</strong></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Car <span class="op">{</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="co">// ...</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="kw">object</span> CustomerDatabase <span class="op">{</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="co">// ...</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="trait-names" class="level2">
+<h2 class="anchored" data-anchor-id="trait-names">3. Trait Names</h2>
+<p>Trait names should also follow the PascalCase convention. Traits represent interfaces or shared behavior, so use descriptive names that convey their purpose.</p>
+<p><strong>Example:</strong></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">trait</span> <span class="ex">Logger</span> <span class="op">{</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="co">// ...</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="variable-and-method-names" class="level2">
+<h2 class="anchored" data-anchor-id="variable-and-method-names">4. Variable and Method Names</h2>
+<p>Variable and method names should be in camelCase, starting with a lowercase letter. Use descriptive names that convey the purpose of the variable or method.</p>
+<p><strong>Example:</strong></p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">val</span> userName<span class="op">:</span> <span class="ex">String</span> <span class="op">=</span> <span class="st">"John"</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> <span class="fu">calculateAverageScore</span><span class="op">(</span>scores<span class="op">:</span> <span class="ex">List</span><span class="op">[</span><span class="bu">Int</span><span class="op">]):</span> <span class="ex">Double</span> <span class="op">=</span> <span class="op">{</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="co">// ...</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="constant-names" class="level2">
+<h2 class="anchored" data-anchor-id="constant-names">5. Constant Names</h2>
+<p>Constants (immutable values) should be in all uppercase, separated by underscores. Scala doesn’t have true constants like Java’s <code>final</code>, but it is a convention to indicate constant-like values with uppercase names.</p>
+<p><strong>Example:</strong></p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">val</span> MAX_ATTEMPTS <span class="op">=</span> <span class="dv">3</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="kw">val</span> PI <span class="op">=</span> <span class="fl">3.14159</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="type-parameter-names" class="level2">
+<h2 class="anchored" data-anchor-id="type-parameter-names">6. Type Parameter Names</h2>
+<p>For type parameters, use single, uppercase letters to represent the type.</p>
+<p><strong>Example:</strong></p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> MyContainer<span class="op">[</span>A<span class="op">]</span> <span class="op">{</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="co">// ...</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="enumerations-sealed-traits" class="level2">
+<h2 class="anchored" data-anchor-id="enumerations-sealed-traits">7. Enumerations (Sealed Traits)</h2>
+<p>Scala doesn’t have a built-in enumeration type like Java, but you can create enumerations using sealed traits and case objects. Name enumeration values in PascalCase.</p>
+<p><strong>Example:</strong></p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">sealed</span> <span class="kw">trait</span> <span class="ex">Color</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="cf">case</span> <span class="kw">object</span> Red <span class="kw">extends</span> <span class="ex">Color</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="cf">case</span> <span class="kw">object</span> Green <span class="kw">extends</span> <span class="ex">Color</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="cf">case</span> <span class="kw">object</span> Blue <span class="kw">extends</span> <span class="ex">Color</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="package-object" class="level2">
+<h2 class="anchored" data-anchor-id="package-object">8. Package Object</h2>
+<p>If you have utility functions/constants that are closely related to a package, you can use a package object. Name the package object as <code>package.scala</code>.</p>
+<p><strong>Example:</strong></p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">package</span> com<span class="op">.</span>example<span class="op">.</span>myapp</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="kw">package</span> <span class="kw">object</span> utils <span class="op">{</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  <span class="kw">val</span> DEFAULT_TIMEOUT <span class="op">=</span> <span class="dv">5000</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>  <span class="kw">def</span> <span class="fu">formatDate</span><span class="op">(</span>date<span class="op">:</span> <span class="ex">Date</span><span class="op">):</span> <span class="ex">String</span> <span class="op">=</span> <span class="op">{</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>    <span class="co">// ...</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>  <span class="op">}</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="indentation-and-bracing" class="level2">
+<h2 class="anchored" data-anchor-id="indentation-and-bracing">9. Indentation and Bracing</h2>
+<p>Though not directly related to naming conventions, following consistent indentation and bracing style is important for maintaining readable code.</p>
+<p><strong>Example:</strong></p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> <span class="fu">calculateAverageScore</span><span class="op">(</span>scores<span class="op">:</span> <span class="ex">List</span><span class="op">[</span><span class="bu">Int</span><span class="op">]):</span> <span class="ex">Double</span> <span class="op">=</span> <span class="op">{</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> <span class="op">(</span>scores<span class="op">.</span>isEmpty<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">throw</span> <span class="kw">new</span> <span class="ex">IllegalArgumentException</span><span class="op">(</span><span class="st">"Empty list of scores."</span><span class="op">)</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="op">}</span> <span class="cf">else</span> <span class="op">{</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">val</span> sum <span class="op">=</span> scores<span class="op">.</span>sum</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">val</span> count <span class="op">=</span> scores<span class="op">.</span>size</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>    sum<span class="op">.</span>toDouble <span class="op">/</span> count</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>  <span class="op">}</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>By following these naming conventions, your Scala code will become more readable, and it will be easier for other developers to understand and collaborate on your projects. Consistency in naming also plays a significant role in creating a maintainable codebase. Happy coding in Scala!</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

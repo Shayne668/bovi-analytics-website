@@ -2,46 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/Bovi-analytics/bovi-analytics-website/index.html</loc>
-    <lastmod>2023-08-02T17:53:21.845Z</lastmod>
+    <lastmod>2023-08-02T18:30:31.089Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Bovi-analytics/bovi-analytics-website/projects/decide.html</loc>
-    <lastmod>2023-08-02T17:53:22.501Z</lastmod>
+    <lastmod>2023-08-02T18:30:31.997Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Bovi-analytics/bovi-analytics-website/projects/index.html</loc>
-    <lastmod>2023-08-02T17:53:23.308Z</lastmod>
+    <lastmod>2023-08-02T18:30:33.218Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Bovi-analytics/bovi-analytics-website/projects/veerkracht.html</loc>
-    <lastmod>2023-08-02T17:53:23.858Z</lastmod>
+    <lastmod>2023-08-02T18:30:34.078Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Bovi-analytics/bovi-analytics-website/researchers/index.html</loc>
-    <lastmod>2023-08-02T17:53:24.463Z</lastmod>
+    <lastmod>2023-08-02T18:30:35.146Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Bovi-analytics/bovi-analytics-website/researchers/lucia-trapenese.html</loc>
-    <lastmod>2023-08-02T17:53:25.214Z</lastmod>
+    <lastmod>2023-08-02T18:30:36.024Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Bovi-analytics/bovi-analytics-website/researchers/mattieu-salamone.html</loc>
-    <lastmod>2023-08-02T17:53:27.327Z</lastmod>
+    <lastmod>2023-08-02T18:30:38.446Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Bovi-analytics/bovi-analytics-website/researchers/miel-hostens.html</loc>
-    <lastmod>2023-08-02T17:53:29.262Z</lastmod>
+    <lastmod>2023-08-02T18:30:41.255Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Bovi-analytics/bovi-analytics-website/researchers/peter-hut.html</loc>
-    <lastmod>2023-08-02T17:53:29.863Z</lastmod>
+    <lastmod>2023-08-02T18:30:42.097Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Bovi-analytics/bovi-analytics-website/researchers/yongyan-chen.html</loc>
-    <lastmod>2023-08-02T17:53:30.460Z</lastmod>
+    <lastmod>2023-08-02T18:30:42.946Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Bovi-analytics/bovi-analytics-website/tools/index.html</loc>
-    <lastmod>2023-08-02T17:53:31.035Z</lastmod>
+    <lastmod>2023-08-02T18:30:43.882Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/general-naming-convention.html</loc>
+    <lastmod>2023-08-02T18:30:44.968Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/index.html</loc>
+    <lastmod>2023-08-02T18:30:46.513Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/python-naming-convention.html</loc>
+    <lastmod>2023-08-02T18:30:47.537Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/r-naming-convention.html</loc>
+    <lastmod>2023-08-02T18:30:48.862Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/scala-naming-convention.html</loc>
+    <lastmod>2023-08-02T18:30:49.935Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/slack.html</loc>
+    <lastmod>2023-08-02T18:30:51.052Z</lastmod>
   </url>
 </urlset>

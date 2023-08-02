@@ -229,5 +229,208 @@
     "title": "Tools",
     "section": "Others tools",
     "text": "Others tools\n\nGithub as code repository, this website is hosted through github pages.\nThis website is build using Quarto, a new tool integrated well in R studio and others.\nMarkdown ( https://www.markdownguide.org/ )."
+  },
+  {
+    "objectID": "tutorials/general-naming-convention.html",
+    "href": "tutorials/general-naming-convention.html",
+    "title": "Naming conventions",
+    "section": "",
+    "text": "Naming conventions are essential for writing clean, readable, and maintainable code. They serve as guidelines for naming variables, functions, classes, and other identifiers in your codebase. Consistently following naming conventions can improve collaboration among developers, reduce confusion, and make it easier to understand your code in the long run. In this tutorial, we will explore the best practices for naming conventions in various programming languages.\n\n\nBefore diving into language-specific conventions, let’s establish some general principles that apply across most programming languages:\n\n\nChoose descriptive names that convey the purpose and meaning of the identifier. Avoid single-letter names or cryptic abbreviations that obscure the purpose of the variable or function.\nBad Example:\nx = 10       # What does 'x' represent?\nGood Example:\nage = 30     # Clearly indicates that 'age' represents a person's age.\n\n\n\nBe consistent in your naming style throughout your codebase. Consistency improves code readability and makes it easier for developers to understand and navigate the code.\nBad Example:\ngetUserData()   // In camelCase\nfetch_user()    // In snake_case\nGood Example:\ngetUserData()   // Both functions in camelCase\nfetchUserData() // Both functions in camelCase\n\n\n\nStrive for names that are neither too long nor too short. Extremely long names can be cumbersome, while very short names may not convey sufficient information.\nBad Example:\nint n = 15;  // Not descriptive enough\nGood Example:\nint numberOfStudents = 15; // Descriptive but not overly long\n\n\n\nAvoid using reserved keywords of the programming language as identifiers since they have special meanings and functionalities.\nBad Example:\nclass = \"User\";  // 'class' is a reserved keyword in Python.\nGood Example:\nuser_class = \"User\"; // Use a different name that is not a reserved keyword.\n\n\n\n\nLet’s explore the naming conventions in some popular programming languages:\n\n\nPython code follows the PEP 8 style guide, which suggests the following conventions:\n\nVariables, functions, and module names should be in lowercase, separated by underscores (snake_case).\nConstants should be in uppercase, separated by underscores.\nClass names should follow the CapWords convention (also known as PascalCase).\n\nExamples:\n# Variables and functions\nuser_name = \"John\"\ncalculate_average_score()\n\n# Constants\nMAX_ATTEMPTS = 3\n\n# Class\nclass Car:\n    def __init__(self, make, model):\n        self.make = make\n        self.model = model\n\n\n\nJavaScript typically follows the following conventions:\n\nVariables and functions should be in camelCase.\nConstants can be in uppercase with underscores (ALL_CAPS) but are not strictly enforced.\nConstructor functions (used for creating objects) should be written with PascalCase.\n\nExamples:\n// Variables and functions\nlet userName = \"John\";\nfunction calculateAverageScore() { /* ... */ }\n\n// Constants (non-enforced convention)\nconst MAX_ATTEMPTS = 3;\n\n// Constructor function (class-like)\nfunction Car(make, model) {\n    this.make = make;\n    this.model = model;\n}\n\n\n\nJava uses a slightly different naming convention:\n\nVariables and functions should be in camelCase.\nConstants should be in uppercase with underscores (ALL_CAPS).\nClass names should follow the CapWords convention (PascalCase).\n\nExamples:\n// Variables and functions\nString userName = \"John\";\nint calculateAverageScore() { /* ... */ }\n\n// Constants\nfinal int MAX_ATTEMPTS = 3;\n\n// Class\nclass Car {\n    String make;\n    String model;\n\n    Car(String make, String model) {\n        this.make = make;\n        this.model = model;\n    }\n}\n\n\n\n\n\n\nWhen using acronyms or abbreviations, be consistent with their capitalization and try to avoid ambiguous names.\nExamples:\n# Good\nxmlHttpRequest = ...\nuserID = ...\n\n# Bad\nXMLHTTPRequest = ...  # Inconsistent capitalization\nuid = ...             # Ambiguous abbreviation\n\n\n\nChoose names that reflect the variable’s scope. For example, use meaningful prefixes like “g_” for global variables and “m_” for member variables in classes.\nglobal_variable = 10\nclass MyClass:\n    def __init__(self):\n        self.member_variable = 20\n\n\n\n\nAdhering to naming conventions is crucial for writing clean and maintainable code. Each programming language has its own conventions, but the general principles of descriptive and consistent naming apply universally. Following these conventions will improve code readability, make it easier for others to collaborate with you, and ensure that your codebase remains maintainable in the long term. Happy coding!"
+  },
+  {
+    "objectID": "tutorials/general-naming-convention.html#general-principles",
+    "href": "tutorials/general-naming-convention.html#general-principles",
+    "title": "Naming conventions",
+    "section": "",
+    "text": "Before diving into language-specific conventions, let’s establish some general principles that apply across most programming languages:\n\n\nChoose descriptive names that convey the purpose and meaning of the identifier. Avoid single-letter names or cryptic abbreviations that obscure the purpose of the variable or function.\nBad Example:\nx = 10       # What does 'x' represent?\nGood Example:\nage = 30     # Clearly indicates that 'age' represents a person's age.\n\n\n\nBe consistent in your naming style throughout your codebase. Consistency improves code readability and makes it easier for developers to understand and navigate the code.\nBad Example:\ngetUserData()   // In camelCase\nfetch_user()    // In snake_case\nGood Example:\ngetUserData()   // Both functions in camelCase\nfetchUserData() // Both functions in camelCase\n\n\n\nStrive for names that are neither too long nor too short. Extremely long names can be cumbersome, while very short names may not convey sufficient information.\nBad Example:\nint n = 15;  // Not descriptive enough\nGood Example:\nint numberOfStudents = 15; // Descriptive but not overly long\n\n\n\nAvoid using reserved keywords of the programming language as identifiers since they have special meanings and functionalities.\nBad Example:\nclass = \"User\";  // 'class' is a reserved keyword in Python.\nGood Example:\nuser_class = \"User\"; // Use a different name that is not a reserved keyword."
+  },
+  {
+    "objectID": "tutorials/general-naming-convention.html#naming-conventions-in-specific-languages",
+    "href": "tutorials/general-naming-convention.html#naming-conventions-in-specific-languages",
+    "title": "Naming conventions",
+    "section": "",
+    "text": "Let’s explore the naming conventions in some popular programming languages:\n\n\nPython code follows the PEP 8 style guide, which suggests the following conventions:\n\nVariables, functions, and module names should be in lowercase, separated by underscores (snake_case).\nConstants should be in uppercase, separated by underscores.\nClass names should follow the CapWords convention (also known as PascalCase).\n\nExamples:\n# Variables and functions\nuser_name = \"John\"\ncalculate_average_score()\n\n# Constants\nMAX_ATTEMPTS = 3\n\n# Class\nclass Car:\n    def __init__(self, make, model):\n        self.make = make\n        self.model = model\n\n\n\nJavaScript typically follows the following conventions:\n\nVariables and functions should be in camelCase.\nConstants can be in uppercase with underscores (ALL_CAPS) but are not strictly enforced.\nConstructor functions (used for creating objects) should be written with PascalCase.\n\nExamples:\n// Variables and functions\nlet userName = \"John\";\nfunction calculateAverageScore() { /* ... */ }\n\n// Constants (non-enforced convention)\nconst MAX_ATTEMPTS = 3;\n\n// Constructor function (class-like)\nfunction Car(make, model) {\n    this.make = make;\n    this.model = model;\n}\n\n\n\nJava uses a slightly different naming convention:\n\nVariables and functions should be in camelCase.\nConstants should be in uppercase with underscores (ALL_CAPS).\nClass names should follow the CapWords convention (PascalCase).\n\nExamples:\n// Variables and functions\nString userName = \"John\";\nint calculateAverageScore() { /* ... */ }\n\n// Constants\nfinal int MAX_ATTEMPTS = 3;\n\n// Class\nclass Car {\n    String make;\n    String model;\n\n    Car(String make, String model) {\n        this.make = make;\n        this.model = model;\n    }\n}"
+  },
+  {
+    "objectID": "tutorials/general-naming-convention.html#special-cases",
+    "href": "tutorials/general-naming-convention.html#special-cases",
+    "title": "Naming conventions",
+    "section": "",
+    "text": "When using acronyms or abbreviations, be consistent with their capitalization and try to avoid ambiguous names.\nExamples:\n# Good\nxmlHttpRequest = ...\nuserID = ...\n\n# Bad\nXMLHTTPRequest = ...  # Inconsistent capitalization\nuid = ...             # Ambiguous abbreviation\n\n\n\nChoose names that reflect the variable’s scope. For example, use meaningful prefixes like “g_” for global variables and “m_” for member variables in classes.\nglobal_variable = 10\nclass MyClass:\n    def __init__(self):\n        self.member_variable = 20"
+  },
+  {
+    "objectID": "tutorials/general-naming-convention.html#conclusion",
+    "href": "tutorials/general-naming-convention.html#conclusion",
+    "title": "Naming conventions",
+    "section": "",
+    "text": "Adhering to naming conventions is crucial for writing clean and maintainable code. Each programming language has its own conventions, but the general principles of descriptive and consistent naming apply universally. Following these conventions will improve code readability, make it easier for others to collaborate with you, and ensure that your codebase remains maintainable in the long term. Happy coding!"
+  },
+  {
+    "objectID": "tutorials/index.html",
+    "href": "tutorials/index.html",
+    "title": "Tutorials",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nNaming conventions\n\n\n\n\n\n\n\nBest practice\n\n\nR\n\n\nScala\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\nAug 2, 2023\n\n\n\n\n\n\n  \n\n\n\n\nPython naming convention\n\n\n\n\n\n\n\nBest practice\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\nAug 2, 2023\n\n\n\n\n\n\n  \n\n\n\n\nR naming convention\n\n\n\n\n\n\n\nBest practice\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\nAug 2, 2023\n\n\n\n\n\n\n  \n\n\n\n\nScala naming convention\n\n\n\n\n\n\n\nBest practice\n\n\nScala\n\n\n\n\n\n\n\n\n\n\n\nAug 2, 2023\n\n\n\n\n\n\n  \n\n\n\n\nWhat is Slack, and why Slack?\n\n\n\n\n\n\n\nSlack\n\n\n\n\n\n\n\n\n\n\n\nAug 2, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "tutorials/python-naming-convention.html",
+    "href": "tutorials/python-naming-convention.html",
+    "title": "Python naming convention",
+    "section": "",
+    "text": "Yes, Python has well-established naming conventions outlined in PEP 8 (Python Enhancement Proposal 8). Following PEP 8 is highly recommended as it improves code readability and consistency across different Python projects. Here are some key recommendations for Python naming conventions:\n\n\n\nUse lowercase letters for variable and function names.\nSeparate words with underscores (snake_case).\nChoose descriptive names that convey the purpose of the variable or function.\n\nExample:\nuser_name = \"John\"\n\ndef calculate_average_score(scores):\n    # ...\n\n\n\n\nUse uppercase letters for constant names.\nSeparate words with underscores (UPPER_CASE_WITH_UNDERSCORES).\nNote that Python doesn’t have true constants, but this convention indicates that the variable should not be modified.\n\nExample:\nMAX_ATTEMPTS = 3\nPI = 3.14159\n\n\n\n\nUse CamelCase (CapWords) for class names.\nClass names should start with an uppercase letter.\n\nExample:\nclass Car:\n    def __init__(self, make, model):\n        self.make = make\n        self.model = model\n\n\n\n\nUse lowercase letters for method names.\nSeparate words with underscores (snake_case).\n\nExample:\nclass Car:\n    def start_engine(self):\n        # ...\n\n\n\n\nPrefix private instance variables and methods with a single underscore _.\nPython doesn’t enforce private access, but this is a convention to indicate that the variable/method is intended for internal use.\n\nExample:\nclass MyClass:\n    def __init__(self):\n        self._private_variable = 42\n\n    def _private_method(self):\n        # ...\n\n\n\n\nUse lowercase letters for module names.\nSeparate words with underscores (snake_case).\nPackage names should also be lowercase.\n\nExample:\n# module_name.py\n# package_name/__init__.py\n\n\n\n\nIf a module defines constants, you can use uppercase letters and underscores (UPPER_CASE_WITH_UNDERSCORES) for the constant names.\n\nExample:\n# constants.py\nMAX_RETRY_ATTEMPTS = 5\n\n\n\n\nFor boolean variables, use names that sound like questions and start with is_, has_, or similar prefixes.\n\nExample:\nis_student = True\nhas_permission = False\n\n\n\n\nAvoid using single-character names except for loop counters (e.g., i, j, k) and very short-lived variables.\n\nBad Example:\nx = 10\nGood Example:\nnum_attempts = 10\nBy following these naming conventions, your Python code will be more consistent, readable, and maintainable. PEP 8 is widely adopted in the Python community, so sticking to these conventions will make it easier for others to understand and collaborate on your Python projects. Happy coding in Python!"
+  },
+  {
+    "objectID": "tutorials/python-naming-convention.html#variables-and-functions",
+    "href": "tutorials/python-naming-convention.html#variables-and-functions",
+    "title": "Python naming convention",
+    "section": "",
+    "text": "Use lowercase letters for variable and function names.\nSeparate words with underscores (snake_case).\nChoose descriptive names that convey the purpose of the variable or function.\n\nExample:\nuser_name = \"John\"\n\ndef calculate_average_score(scores):\n    # ..."
+  },
+  {
+    "objectID": "tutorials/python-naming-convention.html#constants",
+    "href": "tutorials/python-naming-convention.html#constants",
+    "title": "Python naming convention",
+    "section": "",
+    "text": "Use uppercase letters for constant names.\nSeparate words with underscores (UPPER_CASE_WITH_UNDERSCORES).\nNote that Python doesn’t have true constants, but this convention indicates that the variable should not be modified.\n\nExample:\nMAX_ATTEMPTS = 3\nPI = 3.14159"
+  },
+  {
+    "objectID": "tutorials/python-naming-convention.html#class-names",
+    "href": "tutorials/python-naming-convention.html#class-names",
+    "title": "Python naming convention",
+    "section": "",
+    "text": "Use CamelCase (CapWords) for class names.\nClass names should start with an uppercase letter.\n\nExample:\nclass Car:\n    def __init__(self, make, model):\n        self.make = make\n        self.model = model"
+  },
+  {
+    "objectID": "tutorials/python-naming-convention.html#method-names",
+    "href": "tutorials/python-naming-convention.html#method-names",
+    "title": "Python naming convention",
+    "section": "",
+    "text": "Use lowercase letters for method names.\nSeparate words with underscores (snake_case).\n\nExample:\nclass Car:\n    def start_engine(self):\n        # ..."
+  },
+  {
+    "objectID": "tutorials/python-naming-convention.html#private-variables-and-methods",
+    "href": "tutorials/python-naming-convention.html#private-variables-and-methods",
+    "title": "Python naming convention",
+    "section": "",
+    "text": "Prefix private instance variables and methods with a single underscore _.\nPython doesn’t enforce private access, but this is a convention to indicate that the variable/method is intended for internal use.\n\nExample:\nclass MyClass:\n    def __init__(self):\n        self._private_variable = 42\n\n    def _private_method(self):\n        # ..."
+  },
+  {
+    "objectID": "tutorials/python-naming-convention.html#modules-and-packages",
+    "href": "tutorials/python-naming-convention.html#modules-and-packages",
+    "title": "Python naming convention",
+    "section": "",
+    "text": "Use lowercase letters for module names.\nSeparate words with underscores (snake_case).\nPackage names should also be lowercase.\n\nExample:\n# module_name.py\n# package_name/__init__.py"
+  },
+  {
+    "objectID": "tutorials/python-naming-convention.html#constants-in-modules",
+    "href": "tutorials/python-naming-convention.html#constants-in-modules",
+    "title": "Python naming convention",
+    "section": "",
+    "text": "If a module defines constants, you can use uppercase letters and underscores (UPPER_CASE_WITH_UNDERSCORES) for the constant names.\n\nExample:\n# constants.py\nMAX_RETRY_ATTEMPTS = 5"
+  },
+  {
+    "objectID": "tutorials/python-naming-convention.html#boolean-variables",
+    "href": "tutorials/python-naming-convention.html#boolean-variables",
+    "title": "Python naming convention",
+    "section": "",
+    "text": "For boolean variables, use names that sound like questions and start with is_, has_, or similar prefixes.\n\nExample:\nis_student = True\nhas_permission = False"
+  },
+  {
+    "objectID": "tutorials/python-naming-convention.html#avoid-single-character-names",
+    "href": "tutorials/python-naming-convention.html#avoid-single-character-names",
+    "title": "Python naming convention",
+    "section": "",
+    "text": "Avoid using single-character names except for loop counters (e.g., i, j, k) and very short-lived variables.\n\nBad Example:\nx = 10\nGood Example:\nnum_attempts = 10\nBy following these naming conventions, your Python code will be more consistent, readable, and maintainable. PEP 8 is widely adopted in the Python community, so sticking to these conventions will make it easier for others to understand and collaborate on your Python projects. Happy coding in Python!"
+  },
+  {
+    "objectID": "tutorials/r-naming-convention.html",
+    "href": "tutorials/r-naming-convention.html",
+    "title": "R naming convention",
+    "section": "",
+    "text": "R naming convention\nIn R, following consistent naming conventions is crucial for writing clean and readable code. While R doesn’t have strict guidelines like some other languages, there are some commonly adopted conventions that you can follow. Here are some recommendations for R naming conventions:\n\n1. Object Names\nUse descriptive and meaningful names for variables, functions, and objects. Name variables using lowercase letters and separate words with underscores (snake_case).\nExample:\nuser_name &lt;- \"John\"\n\ncalculate_average_score &lt;- function(scores) {\n  # ...\n}\n\n\n2. Function Names\nFunctions in R should be named in lowercase using descriptive verbs. If the function name includes multiple words, use underscores to separate them.\nExample:\ncalculate_average_score &lt;- function(scores) {\n  # ...\n}\n\n\n3. Constant Names\nFor constants, use uppercase letters and separate words with underscores. R doesn’t have built-in constants, but you can treat uppercase variables as constants to indicate their unchangeable nature.\nExample:\nMAX_ATTEMPTS &lt;- 3\nPI &lt;- 3.14159\n\n\n4. Package Names\nPackage names should be in lowercase. When creating your own R packages, follow the lowercase convention for package names.\nExample:\ninstall.packages(\"my_package\")\n\n\n5. Logical Names for Boolean Variables\nWhen naming boolean variables (logical values), use descriptive names that represent the true/false nature of the variable.\nExample:\nis_student &lt;- TRUE\nhas_permission &lt;- FALSE\n\n\n6. Use Consistent Abbreviations\nIn R, it is common to use abbreviations for long function names, but try to use consistent and widely understood abbreviations.\nExample:\ncalc_avg_score &lt;- function(scores) { # Shortened \"calculate\" to \"calc\"\n  # ...\n}\n\n\n7. Avoid Reserved Keywords\nAvoid using reserved keywords or function names as variable names, as it can lead to confusion and unexpected behavior.\nBad Example:\n# Avoid using 'mean' as a variable name, as it's a built-in function.\nmean &lt;- 42\n\n\n8. Avoid Using Dots in Names\nWhile R allows you to use dots in variable names, it’s generally recommended to avoid them as it can cause ambiguity and confusion.\nBad Example:\nmy.variable &lt;- 10   # Avoid using dots in variable names.\n\n\n9. Indentation and Spacing\nMaintain consistent indentation and spacing in your code for better readability.\nExample:\n# Good indentation and spacing\nif (condition) {\n  # ...\n} else {\n  # ...\n}\n\n# Bad indentation and spacing\nif(condition){\n#...\n}else{\n#...\n}\nBy adhering to these naming conventions, your R code will be more readable, maintainable, and easier for others to collaborate with. Consistency in naming can make a significant difference in the understandability of your R projects. Happy coding in R!"
+  },
+  {
+    "objectID": "tutorials/scala-naming-convention.html",
+    "href": "tutorials/scala-naming-convention.html",
+    "title": "Scala naming convention",
+    "section": "",
+    "text": "Scala also follows certain naming conventions that help maintain consistency and improve code readability. Here are some recommendations for Scala naming conventions:\n\n\nPackage names should be in all lowercase and follow the reverse domain name convention (similar to Java). Use meaningful and descriptive package names that represent the content of the package.\nExample:\npackage com.example.myapp.models\n\n\n\nClass and object names should follow the PascalCase convention, starting with an uppercase letter. Use nouns or noun phrases that describe the entity.\nExample:\nclass Car {\n  // ...\n}\n\nobject CustomerDatabase {\n  // ...\n}\n\n\n\nTrait names should also follow the PascalCase convention. Traits represent interfaces or shared behavior, so use descriptive names that convey their purpose.\nExample:\ntrait Logger {\n  // ...\n}\n\n\n\nVariable and method names should be in camelCase, starting with a lowercase letter. Use descriptive names that convey the purpose of the variable or method.\nExample:\nval userName: String = \"John\"\n\ndef calculateAverageScore(scores: List[Int]): Double = {\n  // ...\n}\n\n\n\nConstants (immutable values) should be in all uppercase, separated by underscores. Scala doesn’t have true constants like Java’s final, but it is a convention to indicate constant-like values with uppercase names.\nExample:\nval MAX_ATTEMPTS = 3\nval PI = 3.14159\n\n\n\nFor type parameters, use single, uppercase letters to represent the type.\nExample:\nclass MyContainer[A] {\n  // ...\n}\n\n\n\nScala doesn’t have a built-in enumeration type like Java, but you can create enumerations using sealed traits and case objects. Name enumeration values in PascalCase.\nExample:\nsealed trait Color\ncase object Red extends Color\ncase object Green extends Color\ncase object Blue extends Color\n\n\n\nIf you have utility functions/constants that are closely related to a package, you can use a package object. Name the package object as package.scala.\nExample:\npackage com.example.myapp\n\npackage object utils {\n  val DEFAULT_TIMEOUT = 5000\n  def formatDate(date: Date): String = {\n    // ...\n  }\n}\n\n\n\nThough not directly related to naming conventions, following consistent indentation and bracing style is important for maintaining readable code.\nExample:\ndef calculateAverageScore(scores: List[Int]): Double = {\n  if (scores.isEmpty) {\n    throw new IllegalArgumentException(\"Empty list of scores.\")\n  } else {\n    val sum = scores.sum\n    val count = scores.size\n    sum.toDouble / count\n  }\n}\nBy following these naming conventions, your Scala code will become more readable, and it will be easier for other developers to understand and collaborate on your projects. Consistency in naming also plays a significant role in creating a maintainable codebase. Happy coding in Scala!"
+  },
+  {
+    "objectID": "tutorials/scala-naming-convention.html#package-names",
+    "href": "tutorials/scala-naming-convention.html#package-names",
+    "title": "Scala naming convention",
+    "section": "",
+    "text": "Package names should be in all lowercase and follow the reverse domain name convention (similar to Java). Use meaningful and descriptive package names that represent the content of the package.\nExample:\npackage com.example.myapp.models"
+  },
+  {
+    "objectID": "tutorials/scala-naming-convention.html#object-and-class-names",
+    "href": "tutorials/scala-naming-convention.html#object-and-class-names",
+    "title": "Scala naming convention",
+    "section": "",
+    "text": "Class and object names should follow the PascalCase convention, starting with an uppercase letter. Use nouns or noun phrases that describe the entity.\nExample:\nclass Car {\n  // ...\n}\n\nobject CustomerDatabase {\n  // ...\n}"
+  },
+  {
+    "objectID": "tutorials/scala-naming-convention.html#trait-names",
+    "href": "tutorials/scala-naming-convention.html#trait-names",
+    "title": "Scala naming convention",
+    "section": "",
+    "text": "Trait names should also follow the PascalCase convention. Traits represent interfaces or shared behavior, so use descriptive names that convey their purpose.\nExample:\ntrait Logger {\n  // ...\n}"
+  },
+  {
+    "objectID": "tutorials/scala-naming-convention.html#variable-and-method-names",
+    "href": "tutorials/scala-naming-convention.html#variable-and-method-names",
+    "title": "Scala naming convention",
+    "section": "",
+    "text": "Variable and method names should be in camelCase, starting with a lowercase letter. Use descriptive names that convey the purpose of the variable or method.\nExample:\nval userName: String = \"John\"\n\ndef calculateAverageScore(scores: List[Int]): Double = {\n  // ...\n}"
+  },
+  {
+    "objectID": "tutorials/scala-naming-convention.html#constant-names",
+    "href": "tutorials/scala-naming-convention.html#constant-names",
+    "title": "Scala naming convention",
+    "section": "",
+    "text": "Constants (immutable values) should be in all uppercase, separated by underscores. Scala doesn’t have true constants like Java’s final, but it is a convention to indicate constant-like values with uppercase names.\nExample:\nval MAX_ATTEMPTS = 3\nval PI = 3.14159"
+  },
+  {
+    "objectID": "tutorials/scala-naming-convention.html#type-parameter-names",
+    "href": "tutorials/scala-naming-convention.html#type-parameter-names",
+    "title": "Scala naming convention",
+    "section": "",
+    "text": "For type parameters, use single, uppercase letters to represent the type.\nExample:\nclass MyContainer[A] {\n  // ...\n}"
+  },
+  {
+    "objectID": "tutorials/scala-naming-convention.html#enumerations-sealed-traits",
+    "href": "tutorials/scala-naming-convention.html#enumerations-sealed-traits",
+    "title": "Scala naming convention",
+    "section": "",
+    "text": "Scala doesn’t have a built-in enumeration type like Java, but you can create enumerations using sealed traits and case objects. Name enumeration values in PascalCase.\nExample:\nsealed trait Color\ncase object Red extends Color\ncase object Green extends Color\ncase object Blue extends Color"
+  },
+  {
+    "objectID": "tutorials/scala-naming-convention.html#package-object",
+    "href": "tutorials/scala-naming-convention.html#package-object",
+    "title": "Scala naming convention",
+    "section": "",
+    "text": "If you have utility functions/constants that are closely related to a package, you can use a package object. Name the package object as package.scala.\nExample:\npackage com.example.myapp\n\npackage object utils {\n  val DEFAULT_TIMEOUT = 5000\n  def formatDate(date: Date): String = {\n    // ...\n  }\n}"
+  },
+  {
+    "objectID": "tutorials/scala-naming-convention.html#indentation-and-bracing",
+    "href": "tutorials/scala-naming-convention.html#indentation-and-bracing",
+    "title": "Scala naming convention",
+    "section": "",
+    "text": "Though not directly related to naming conventions, following consistent indentation and bracing style is important for maintaining readable code.\nExample:\ndef calculateAverageScore(scores: List[Int]): Double = {\n  if (scores.isEmpty) {\n    throw new IllegalArgumentException(\"Empty list of scores.\")\n  } else {\n    val sum = scores.sum\n    val count = scores.size\n    sum.toDouble / count\n  }\n}\nBy following these naming conventions, your Scala code will become more readable, and it will be easier for other developers to understand and collaborate on your projects. Consistency in naming also plays a significant role in creating a maintainable codebase. Happy coding in Scala!"
+  },
+  {
+    "objectID": "tutorials/slack.html",
+    "href": "tutorials/slack.html",
+    "title": "What is Slack, and why Slack?",
+    "section": "",
+    "text": "Slack is a cloud-based collaboration and communication platform designed for teams and businesses. It is primarily used for workplace communication, enabling teams to collaborate, share information, and stay connected in real-time. Slack provides a centralized space where users can send messages, share files, and integrate with various third-party apps and services.It became popular before microsoft introduced Teams, hence we created the Bovi-Analytics workspace.\n\n\n\nChannels: Slack organizes conversations into channels, which can be either public (accessible to all team members) or private (restricted to selected members). This allows teams to keep discussions focused and organized based on different projects, departments, or topics.\nReal-Time Messaging: Slack offers instant messaging functionality, allowing team members to send and receive messages in real time. This fosters quick and efficient communication within the team.\nFile Sharing: Users can share files and documents directly within Slack, making it easy to collaborate on projects and exchange information without having to switch between different tools.\nIntegrations: Slack integrates with a wide range of third-party apps and services, such as Google Drive, Trello, GitHub, Jira, and more. These integrations enable users to receive updates, notifications, and information from other tools directly within Slack.\nSearch and Archive: Slack retains a searchable archive of all messages and files shared within the platform, making it easy to find and refer back to past conversations and information.\nNotifications: Slack provides customizable notifications, allowing users to stay informed about important messages, mentions, or activities.\nBots and Automation: Slack supports bots and automation, enabling teams to create custom workflows and automate repetitive tasks.\nVoice and Video Calls: Slack includes voice and video calling capabilities, allowing users to have audio and video meetings directly within the platform.\n\nSlack has become a popular tool for remote and distributed teams, as it facilitates seamless communication and collaboration across different time zones and locations. It is widely used across various industries and organizations, ranging from startups and small businesses to large enterprises."
+  },
+  {
+    "objectID": "tutorials/slack.html#key-features-of-slack",
+    "href": "tutorials/slack.html#key-features-of-slack",
+    "title": "What is Slack, and why Slack?",
+    "section": "",
+    "text": "Channels: Slack organizes conversations into channels, which can be either public (accessible to all team members) or private (restricted to selected members). This allows teams to keep discussions focused and organized based on different projects, departments, or topics.\nReal-Time Messaging: Slack offers instant messaging functionality, allowing team members to send and receive messages in real time. This fosters quick and efficient communication within the team.\nFile Sharing: Users can share files and documents directly within Slack, making it easy to collaborate on projects and exchange information without having to switch between different tools.\nIntegrations: Slack integrates with a wide range of third-party apps and services, such as Google Drive, Trello, GitHub, Jira, and more. These integrations enable users to receive updates, notifications, and information from other tools directly within Slack.\nSearch and Archive: Slack retains a searchable archive of all messages and files shared within the platform, making it easy to find and refer back to past conversations and information.\nNotifications: Slack provides customizable notifications, allowing users to stay informed about important messages, mentions, or activities.\nBots and Automation: Slack supports bots and automation, enabling teams to create custom workflows and automate repetitive tasks.\nVoice and Video Calls: Slack includes voice and video calling capabilities, allowing users to have audio and video meetings directly within the platform.\n\nSlack has become a popular tool for remote and distributed teams, as it facilitates seamless communication and collaboration across different time zones and locations. It is widely used across various industries and organizations, ranging from startups and small businesses to large enterprises."
   }
 ]
