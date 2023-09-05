@@ -26,6 +26,10 @@ knitr::opts_chunk$set(
 4. Run `renv::restore()` in the R console to install all the required packages for this project.
 5. `r emoji::emoji("tada")` All done! `r emoji::emoji("tada")` The complete website will be in a folder named `_site/`.
 
+```{bash}
+quarto publish gh-pages --no-browser
+```
+
 
 The pipeline does major tasks:
 
