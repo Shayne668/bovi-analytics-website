@@ -36,11 +36,14 @@ website:
         file: projects/index.qmd
       - text: "Tools"
         file: tools/index.qmd
+      - text: "Tutorials"
+        file: tutorials/index.qmd
       - icon: slack
         href: "https://bovi-analytics.slack.com"
         aria-label: Slack
       - icon: github
         href: "https://github.com/Bovi-Analytics/"
+        aria-label: GitHub
 
   page-footer:
     left: |
