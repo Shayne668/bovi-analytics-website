@@ -1,0 +1,74 @@
+---
+title: "Saba Noor Trapenese"
+subtitle: "Ontology driven animal health -- a prerequisite towards federated learning"
+author: "Lucia Trapenese"
+format: html
+editor: visual
+---
+
+# Who am I
+
+![](images/saba-noor-bio.png){fig-align="right" width="297"}
+
+Hi I am Saba Noor. I came from Pakistan and started my phd at Feburay
+2023. My research focus is on Ontology driven animal health -- a
+prerequisite towards federated learning.
+
+# What project I am working on
+
+As a PhD student I'm working on Decide project Work Package 1. The
+objective of the DECIDE project, funded by the European Horizon 2020
+initiative, is to create decision-support tools that enhance the
+management of infectious diseases in livestock and aquaculture. DECIDE's
+focus revolves around respiratory and gastrointestinal syndromes in
+swine, poultry, and cattle, along with addressing growth reduction in
+salmons. The project's core activities encompass pinpointing stakeholder
+requirements, gathering pertinent data, evaluating disease prevalence
+and control expenses, setting up early warning mechanisms, and
+comprehending the holistic disease impact. The primary goal of DECIDE's
+early warning system is to furnish timely, pivotal information to
+stakeholders, notably farmers and veterinarians. This empowers them to
+judiciously determine disease-mitigating measures. Detecting signals at
+an early stage enables stakeholders to take proactive steps in
+preventing or managing the spread of diseases, thereby minimizing their
+impact on animal health and welfare.
+
+# Publications finished
+
+## Scholarly publications
+
+• Noor, Saba, et al. "Ontology for attack detection: Semantic-based
+approach for genomic data security." Journal of Medical Imaging and
+Health Informatics 7.6 (2017): 1309-1323. \[DOI:
+https://doi.org/10.1166/jmihi.2017.2221\]
+
+• Noor, S., AKRAM, W., & AHMED, T. (2020). Predicting COVID-19 Incidence
+Using Data Mining Techniques: A case study of Pakistan. BRAIN. Broad
+Research in Artificial Intelligence and Neuroscience, 11(4), 168-184.
+
+• AKRAM, W., Noor, S, & MANZOOR, A. (2020). The State of the Art in
+Smart Grid Domain: A Network Modeling Approach. BRAIN. Broad Research in
+Artificial Intelligence and Neuroscience, 11(4), 201-230.
+
+## Conference proceedings and posters
+
+• The 4th International Conference of Computer Science and Allied
+Technologies (ICCSAT) 2021 held on 7-8 Dec 2021 at Lahore Pakistan
+
+• The 3rd International Conference of Computer Science and Allied
+Technologies (ICCSAT) 2020 at Lahore Pakistan 3rd National Conference
+CS&IT 2019
+
+• Attending the 14th International Conference on Frontiers of
+Information Technology (FIT 2016), held on Dec 19-21 at Islamabad
+Pakistan.
+
+• Participating in Poster Presentation of Advanced Artificial
+Intelligence (AAI 2016) held on Dec, 27 at CIIT Islamabad Pakistan.
+
+• Got a certificate of Best Presenter in Advanced Artificial
+Intelligence (AAI 2016) Conference held on Dec, 27 at CIIT Islamabad
+Pakistan.
+
+• Attending the workshop on Web Mining & Semantics held on May 30, 2015
+at Islamabad Pakistan.

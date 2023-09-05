@@ -9,9 +9,16 @@ author: Miel Hostens
 date: 06/21/23
 toc: true
 image: miel-hostens-bio.jpg
-image-alt: Miel Hostens
-language: 
-    section-title-footnotes: References
+image-alt: "Miel Hostens"
+#Publication block
+bibliography: "https://api.citedrive.com/bib/0a7516b3-3fa1-4bdb-8ea4-774215ddd932/references.bib?x=eyJpZCI6ICIwYTc1MTZiMy0zZmExLTRiZGItOGVhNC03NzQyMTVkZGQ5MzIiLCAidXNlciI6ICI1MTE2IiwgInNpZ25hdHVyZSI6ICIwNTYzZTNkYzRlN2UxNDYyMjY1ZGU3YTI3M2M1ZmM0Yjc1NDYwNGJkZTRjYTcwY2NiZDU5OTU3Yjk1MWNiMjVhIn0=/bibliography.bib"
+nocite : | 
+ @*
+ 
+csl : "https://www.zotero.org/styles/journal-of-dairy-science"
+refs: |
+   ::: {#refs}
+   :::
 ---
 
 ![](images/miel-hostens-bio.jpg)
@@ -342,11 +349,9 @@ Active involvement in extension services for several Belgian, European and globa
 
 -   Detecting the subclinical diseased transition cow: how novel phenotyping strategies can help. Elanco Scientific Symposium 2021. Rotterdam. The Netherlands.
 
--   Prediction of persistency at day 305 in lactation at the moment of the insemination
-    decision. ICAR Conference 2023. Toledo. Spain.
+-   Prediction of persistency at day 305 in lactation at the moment of the insemination decision. ICAR Conference 2023. Toledo. Spain.
 
--   A predictive model for hypocalcemia in dairy cows utilizing behavioural sensor
-    data combined with deep learning. ADSA Annual Meeting. 2023. Ottawa. Canada.
+-   A predictive model for hypocalcemia in dairy cows utilizing behavioural sensor data combined with deep learning. ADSA Annual Meeting. 2023. Ottawa. Canada.
 
 ### Extension workshops
 
@@ -639,3 +644,8 @@ Other:
 |                        |                          |                            |
 | TheThingsNetwork       |                          |                            |
 +------------------------+--------------------------+----------------------------+
+
+## Publications
+
+::: {#refs}
+:::

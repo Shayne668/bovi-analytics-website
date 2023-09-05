@@ -6,7 +6,9 @@ editor: visual
 ---
 
 ### Who am I
+
 Hi I'm Lucia! I'm from Italy and I'm a PhD student in "Artificial Intelligence for Agrifood and Environment". My work is focused on the application of machine learning algorithms in ruminant breeding to enhance their management, production, and reproduction performances. Although my focus is on these topics, I am interested in all activities exploiting machine learning, or more generally data analysis, to improve livestock management and animal welfare.
 
 ### My work at Utrecht University
+
 I will spend six months at Utrecht University as a visiting PhD where I'm working on the application of deep learning algorithms in the cow domain. In particular, the project aims to explore the relationship between activity and productivity data.

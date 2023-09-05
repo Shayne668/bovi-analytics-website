@@ -24,7 +24,6 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 ### Matthieu Salamone
 
 [![](/files/img/researchers/MatthieuSalamone.png){fig-align="left" width="200"}](mattieu-salamone.html)
-
 :::
 
 ::: {.g-col-12 .g-col-md-4 .yongyan-chen}
@@ -36,19 +35,23 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 ::: {.g-col-12 .g-col-md-4 .kristof-hermans}
 ### Kristof Hermans
 
-![](/files/img/researchers/KristofHermans.png){width="197"}
+![](/files/img/researchers/KristofHermans.png){fig-align="left" width="200"}
 :::
 
 ::: {.g-col-12 .g-col-md-4 .yara-sleghers}
 ### Yara Sleghers
 
-![](/files/img/researchers/YaraSleghers.png){width="197"}
+![](/files/img/researchers/YaraSleghers.png){fig-align="left" width="200"}
 :::
 
-::: {.g-col-12 .g-col-md-4 .yara-sleghers}
+::: {.g-col-12 .g-col-md-4 .saba-noor}
 ### Saba Noor
+[![](/files/img/researchers/SabaNoor.png){fig-align="left" width="200"}](saba-noor.html)
+:::
 
-![](/files/img/researchers/SabaNoor.png){width="197"}
+::: {.g-col-12 .g-col-md-4 .lucia-trapenese}
+### Lucia Trapenese
+[![](/files/img/researchers/LuciaTrapenese.png){fig-align="left" width="200"}](lucia-trapenese.html)
 :::
 :::
 
@@ -88,8 +91,7 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 ::: {.g-col-12 .g-col-md-4 .arno-liseune}
 ### Arno Liseune
 
-![](/files/img/researchers/ArnoLiseune.png){width="200"}
-
+[![](/files/img/researchers/ArnoLiseune.png){fig-align="left" width="200"}](arno-liseune-hut.html)
 :::
 :::
 :::

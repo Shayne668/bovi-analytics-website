@@ -1,0 +1,18 @@
+---
+title: "Curriculum Vitae - Arno Liseune"
+categories:
+  - PhD
+  - Applied Economics
+  - Data science
+author: Arno Liseune
+date: 09/01/23
+toc: true
+image: arno-liseune-bio.png
+image-alt: Arno Liseune
+language: 
+    section-title-footnotes: References
+---
+
+# PhD project
+
+[PhD Arno Liseune](/researchers/pdfs/arno-liseune-phd.pdf)
