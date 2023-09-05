@@ -1,0 +1,34 @@
+---
+title: "What is Slack, and why Slack?"
+execute:
+  eval: false
+categories:
+  - Slack
+authors: Miel Hostens, et al.
+date: 08/02/23
+toc: true
+---
+
+# Introduction
+
+Slack is a cloud-based collaboration and communication platform designed for teams and businesses. It is primarily used for workplace communication, enabling teams to collaborate, share information, and stay connected in real-time. Slack provides a centralized space where users can send messages, share files, and integrate with various third-party apps and services.It became popular before microsoft introduced Teams, hence we created the Bovi-Analytics workspace.
+
+## Key features of Slack:
+
+1.  **Channels:** Slack organizes conversations into channels, which can be either public (accessible to all team members) or private (restricted to selected members). This allows teams to keep discussions focused and organized based on different projects, departments, or topics.
+
+2.  **Real-Time Messaging:** Slack offers instant messaging functionality, allowing team members to send and receive messages in real time. This fosters quick and efficient communication within the team.
+
+3.  **File Sharing:** Users can share files and documents directly within Slack, making it easy to collaborate on projects and exchange information without having to switch between different tools.
+
+4.  **Integrations:** Slack integrates with a wide range of third-party apps and services, such as Google Drive, Trello, GitHub, Jira, and more. These integrations enable users to receive updates, notifications, and information from other tools directly within Slack.
+
+5.  **Search and Archive:** Slack retains a searchable archive of all messages and files shared within the platform, making it easy to find and refer back to past conversations and information.
+
+6.  **Notifications:** Slack provides customizable notifications, allowing users to stay informed about important messages, mentions, or activities.
+
+7.  **Bots and Automation:** Slack supports bots and automation, enabling teams to create custom workflows and automate repetitive tasks.
+
+8.  **Voice and Video Calls:** Slack includes voice and video calling capabilities, allowing users to have audio and video meetings directly within the platform.
+
+Slack has become a popular tool for remote and distributed teams, as it facilitates seamless communication and collaboration across different time zones and locations. It is widely used across various industries and organizations, ranging from startups and small businesses to large enterprises.

@@ -1,0 +1,130 @@
+---
+title: "R naming convention"
+execute:
+  eval: false
+categories:
+  - Best practice
+  - R
+authors: Miel Hostens, et al.
+date: 08/02/23
+toc: true
+---
+
+# R naming convention
+
+In R, following consistent naming conventions is crucial for writing clean and readable code. While R doesn't have strict guidelines like some other languages, there are some commonly adopted conventions that you can follow. Here are some recommendations for R naming conventions:
+
+### 1. Object Names
+
+Use descriptive and meaningful names for variables, functions, and objects. Name variables using lowercase letters and separate words with underscores (snake_case).
+
+**Example:**
+
+```R
+user_name <- "John"
+
+calculate_average_score <- function(scores) {
+  # ...
+}
+```
+
+### 2. Function Names
+
+Functions in R should be named in lowercase using descriptive verbs. If the function name includes multiple words, use underscores to separate them.
+
+**Example:**
+
+```R
+calculate_average_score <- function(scores) {
+  # ...
+}
+```
+
+### 3. Constant Names
+
+For constants, use uppercase letters and separate words with underscores. R doesn't have built-in constants, but you can treat uppercase variables as constants to indicate their unchangeable nature.
+
+**Example:**
+
+```R
+MAX_ATTEMPTS <- 3
+PI <- 3.14159
+```
+
+### 4. Package Names
+
+Package names should be in lowercase. When creating your own R packages, follow the lowercase convention for package names.
+
+**Example:**
+
+```R
+install.packages("my_package")
+```
+
+### 5. Logical Names for Boolean Variables
+
+When naming boolean variables (logical values), use descriptive names that represent the true/false nature of the variable.
+
+**Example:**
+
+```R
+is_student <- TRUE
+has_permission <- FALSE
+```
+
+### 6. Use Consistent Abbreviations
+
+In R, it is common to use abbreviations for long function names, but try to use consistent and widely understood abbreviations.
+
+**Example:**
+
+```R
+calc_avg_score <- function(scores) { # Shortened "calculate" to "calc"
+  # ...
+}
+```
+
+### 7. Avoid Reserved Keywords
+
+Avoid using reserved keywords or function names as variable names, as it can lead to confusion and unexpected behavior.
+
+**Bad Example:**
+
+```R
+# Avoid using 'mean' as a variable name, as it's a built-in function.
+mean <- 42
+```
+
+### 8. Avoid Using Dots in Names
+
+While R allows you to use dots in variable names, it's generally recommended to avoid them as it can cause ambiguity and confusion.
+
+**Bad Example:**
+
+```R
+my.variable <- 10   # Avoid using dots in variable names.
+```
+
+### 9. Indentation and Spacing
+
+Maintain consistent indentation and spacing in your code for better readability.
+
+**Example:**
+
+```R
+# Good indentation and spacing
+if (condition) {
+  # ...
+} else {
+  # ...
+}
+
+# Bad indentation and spacing
+if(condition){
+#...
+}else{
+#...
+}
+```
+
+By adhering to these naming conventions, your R code will be more readable, maintainable, and easier for others to collaborate with. Consistency in naming can make a significant difference in the understandability of your R projects. Happy coding in R!

@@ -1,0 +1,140 @@
+---
+title: "Scala naming convention"
+execute:
+  eval: false
+categories:
+  - Best practice
+  - Scala
+authors: Miel Hostens, et al.
+date: 08/02/23
+toc: true
+---
+
+# Scala naming convention
+
+Scala also follows certain naming conventions that help maintain consistency and improve code readability. Here are some recommendations for Scala naming conventions:
+
+## 1. Package Names
+
+Package names should be in all lowercase and follow the reverse domain name convention (similar to Java). Use meaningful and descriptive package names that represent the content of the package.
+
+**Example:**
+
+``` scala
+package com.example.myapp.models
+```
+
+## 2. Object and Class Names
+
+Class and object names should follow the PascalCase convention, starting with an uppercase letter. Use nouns or noun phrases that describe the entity.
+
+**Example:**
+
+``` scala
+class Car {
+  // ...
+}
+
+object CustomerDatabase {
+  // ...
+}
+```
+
+## 3. Trait Names
+
+Trait names should also follow the PascalCase convention. Traits represent interfaces or shared behavior, so use descriptive names that convey their purpose.
+
+**Example:**
+
+``` scala
+trait Logger {
+  // ...
+}
+```
+
+## 4. Variable and Method Names
+
+Variable and method names should be in camelCase, starting with a lowercase letter. Use descriptive names that convey the purpose of the variable or method.
+
+**Example:**
+
+``` scala
+val userName: String = "John"
+
+def calculateAverageScore(scores: List[Int]): Double = {
+  // ...
+}
+```
+
+## 5. Constant Names
+
+Constants (immutable values) should be in all uppercase, separated by underscores. Scala doesn't have true constants like Java's `final`, but it is a convention to indicate constant-like values with uppercase names.
+
+**Example:**
+
+``` scala
+val MAX_ATTEMPTS = 3
+val PI = 3.14159
+```
+
+## 6. Type Parameter Names
+
+For type parameters, use single, uppercase letters to represent the type.
+
+**Example:**
+
+``` scala
+class MyContainer[A] {
+  // ...
+}
+```
+
+## 7. Enumerations (Sealed Traits)
+
+Scala doesn't have a built-in enumeration type like Java, but you can create enumerations using sealed traits and case objects. Name enumeration values in PascalCase.
+
+**Example:**
+
+``` scala
+sealed trait Color
+case object Red extends Color
+case object Green extends Color
+case object Blue extends Color
+```
+
+## 8. Package Object
+
+If you have utility functions/constants that are closely related to a package, you can use a package object. Name the package object as `package.scala`.
+
+**Example:**
+
+``` scala
+package com.example.myapp
+
+package object utils {
+  val DEFAULT_TIMEOUT = 5000
+  def formatDate(date: Date): String = {
+    // ...
+  }
+}
+```
+
+## 9. Indentation and Bracing
+
+Though not directly related to naming conventions, following consistent indentation and bracing style is important for maintaining readable code.
+
+**Example:**
+
+``` scala
+def calculateAverageScore(scores: List[Int]): Double = {
+  if (scores.isEmpty) {
+    throw new IllegalArgumentException("Empty list of scores.")
+  } else {
+    val sum = scores.sum
+    val count = scores.size
+    sum.toDouble / count
+  }
+}
+```
+
+By following these naming conventions, your Scala code will become more readable, and it will be easier for other developers to understand and collaborate on your projects. Consistency in naming also plays a significant role in creating a maintainable codebase. Happy coding in Scala!

@@ -1,0 +1,139 @@
+---
+title: "Python naming convention"
+execute:
+  eval: false
+categories:
+  - Best practice
+  - Python
+authors: Miel Hostens, et al.
+date: 08/02/23
+toc: true
+---
+
+# Python naming convention
+
+Yes, Python has well-established naming conventions outlined in PEP 8 (Python Enhancement Proposal 8). Following PEP 8 is highly recommended as it improves code readability and consistency across different Python projects. Here are some key recommendations for Python naming conventions:
+
+## 1. Variables and Functions
+
+- Use lowercase letters for variable and function names.
+- Separate words with underscores (snake_case).
+- Choose descriptive names that convey the purpose of the variable or function.
+
+**Example:**
+
+```python
+user_name = "John"
+
+def calculate_average_score(scores):
+    # ...
+```
+
+## 2. Constants
+
+- Use uppercase letters for constant names.
+- Separate words with underscores (UPPER_CASE_WITH_UNDERSCORES).
+- Note that Python doesn't have true constants, but this convention indicates that the variable should not be modified.
+
+**Example:**
+
+```python
+MAX_ATTEMPTS = 3
+PI = 3.14159
+```
+
+## 3. Class Names
+
+- Use CamelCase (CapWords) for class names.
+- Class names should start with an uppercase letter.
+
+**Example:**
+
+```python
+class Car:
+    def __init__(self, make, model):
+        self.make = make
+        self.model = model
+```
+
+## 4. Method Names
+
+- Use lowercase letters for method names.
+- Separate words with underscores (snake_case).
+
+**Example:**
+
+```python
+class Car:
+    def start_engine(self):
+        # ...
+```
+
+## 5. Private Variables and Methods
+
+- Prefix private instance variables and methods with a single underscore `_`.
+- Python doesn't enforce private access, but this is a convention to indicate that the variable/method is intended for internal use.
+
+**Example:**
+
+```python
+class MyClass:
+    def __init__(self):
+        self._private_variable = 42
+
+    def _private_method(self):
+        # ...
+```
+
+## 6. Modules and Packages
+
+- Use lowercase letters for module names.
+- Separate words with underscores (snake_case).
+- Package names should also be lowercase.
+
+**Example:**
+
+```python
+# module_name.py
+# package_name/__init__.py
+```
+
+## 7. Constants in Modules
+
+- If a module defines constants, you can use uppercase letters and underscores (UPPER_CASE_WITH_UNDERSCORES) for the constant names.
+
+**Example:**
+
+```python
+# constants.py
+MAX_RETRY_ATTEMPTS = 5
+```
+
+## 8. Boolean Variables
+
+- For boolean variables, use names that sound like questions and start with `is_`, `has_`, or similar prefixes.
+
+**Example:**
+
+```python
+is_student = True
+has_permission = False
+```
+
+## 9. Avoid Single-Character Names
+
+- Avoid using single-character names except for loop counters (e.g., `i`, `j`, `k`) and very short-lived variables.
+
+**Bad Example:**
+
+```python
+x = 10
+```
+
+**Good Example:**
+
+```python
+num_attempts = 10
+```
+
+By following these naming conventions, your Python code will be more consistent, readable, and maintainable. PEP 8 is widely adopted in the Python community, so sticking to these conventions will make it easier for others to understand and collaborate on your Python projects. Happy coding in Python!

@@ -1,0 +1,204 @@
+---
+title: "Naming conventions"
+execute:
+  eval: false
+categories:
+  - Best practice
+  - R
+  - Scala
+  - Python
+authors: Miel Hostens, et al.
+date: 08/02/23
+toc: true
+---
+
+# A Comprehensive Guide to Naming Conventions
+
+[Naming conventions](https://en.wikipedia.org/wiki/Naming_convention_(programming)) are essential for writing clean, readable, and maintainable code. They serve as guidelines for naming variables, functions, classes, and other identifiers in your codebase. Consistently following naming conventions can improve collaboration among developers, reduce confusion, and make it easier to understand your code in the long run. In this tutorial, we will explore the best practices for naming conventions in various programming languages.
+
+## 1. General Principles
+
+Before diving into language-specific conventions, let's establish some general principles that apply across most programming languages:
+
+### 1.1. Descriptive Names
+
+Choose descriptive names that convey the purpose and meaning of the identifier. Avoid single-letter names or cryptic abbreviations that obscure the purpose of the variable or function.
+
+**Bad Example:**
+
+``` python
+x = 10       # What does 'x' represent?
+```
+
+**Good Example:**
+
+``` python
+age = 30     # Clearly indicates that 'age' represents a person's age.
+```
+
+### 1.2. Consistency
+
+Be consistent in your naming style throughout your codebase. Consistency improves code readability and makes it easier for developers to understand and navigate the code.
+
+**Bad Example:**
+
+``` javascript
+getUserData()   // In camelCase
+fetch_user()    // In snake_case
+```
+
+**Good Example:**
+
+``` javascript
+getUserData()   // Both functions in camelCase
+fetchUserData() // Both functions in camelCase
+```
+
+### 1.3. Use Appropriate Length
+
+Strive for names that are neither too long nor too short. Extremely long names can be cumbersome, while very short names may not convey sufficient information.
+
+**Bad Example:**
+
+``` java
+int n = 15;  // Not descriptive enough
+```
+
+**Good Example:**
+
+``` java
+int numberOfStudents = 15; // Descriptive but not overly long
+```
+
+### 1.4. Avoid Reserved Words
+
+Avoid using reserved keywords of the programming language as identifiers since they have special meanings and functionalities.
+
+**Bad Example:**
+
+``` python
+class = "User";  // 'class' is a reserved keyword in Python.
+```
+
+**Good Example:**
+
+``` python
+user_class = "User"; // Use a different name that is not a reserved keyword.
+```
+
+## 2. Naming Conventions in Specific Languages
+
+Let's explore the naming conventions in some popular programming languages:
+
+### 2.1. Python
+
+Python code follows the PEP 8 style guide, which suggests the following conventions:
+
+-   Variables, functions, and module names should be in lowercase, separated by underscores (snake_case).
+-   Constants should be in uppercase, separated by underscores.
+-   Class names should follow the CapWords convention (also known as PascalCase).
+
+**Examples:**
+
+``` python
+# Variables and functions
+user_name = "John"
+calculate_average_score()
+
+# Constants
+MAX_ATTEMPTS = 3
+
+# Class
+class Car:
+    def __init__(self, make, model):
+        self.make = make
+        self.model = model
+```
+
+### 2.2. JavaScript
+
+JavaScript typically follows the following conventions:
+
+-   Variables and functions should be in camelCase.
+-   Constants can be in uppercase with underscores (ALL_CAPS) but are not strictly enforced.
+-   Constructor functions (used for creating objects) should be written with PascalCase.
+
+**Examples:**
+
+``` javascript
+// Variables and functions
+let userName = "John";
+function calculateAverageScore() { /* ... */ }
+
+// Constants (non-enforced convention)
+const MAX_ATTEMPTS = 3;
+
+// Constructor function (class-like)
+function Car(make, model) {
+    this.make = make;
+    this.model = model;
+}
+```
+
+### 2.3. Java
+
+Java uses a slightly different naming convention:
+
+-   Variables and functions should be in camelCase.
+-   Constants should be in uppercase with underscores (ALL_CAPS).
+-   Class names should follow the CapWords convention (PascalCase).
+
+**Examples:**
+
+``` java
+// Variables and functions
+String userName = "John";
+int calculateAverageScore() { /* ... */ }
+
+// Constants
+final int MAX_ATTEMPTS = 3;
+
+// Class
+class Car {
+    String make;
+    String model;
+
+    Car(String make, String model) {
+        this.make = make;
+        this.model = model;
+    }
+}
+```
+
+## 3. Special Cases
+
+### 3.1. Acronyms and Abbreviations
+
+When using acronyms or abbreviations, be consistent with their capitalization and try to avoid ambiguous names.
+
+**Examples:**
+
+``` python
+# Good
+xmlHttpRequest = ...
+userID = ...
+
+# Bad
+XMLHTTPRequest = ...  # Inconsistent capitalization
+uid = ...             # Ambiguous abbreviation
+```
+
+### 3.2. Scope
+
+Choose names that reflect the variable's scope. For example, use meaningful prefixes like "g\_" for global variables and "m\_" for member variables in classes.
+
+``` python
+global_variable = 10
+class MyClass:
+    def __init__(self):
+        self.member_variable = 20
+```
+
+## Conclusion
+
+Adhering to naming conventions is crucial for writing clean and maintainable code. Each programming language has its own conventions, but the general principles of descriptive and consistent naming apply universally. Following these conventions will improve code readability, make it easier for others to collaborate with you, and ensure that your codebase remains maintainable in the long term. Happy coding!

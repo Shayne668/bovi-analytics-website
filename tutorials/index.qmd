@@ -1,0 +1,20 @@
+---
+title: "Tutorials"
+subtitle: "Frequently asked questions, tutorials and how-to's"
+toc: false
+title-block-banner: false
+sidebar: false
+search: false
+page-layout: full  
+listing:
+  contents: 
+    - "*.qmd"
+    - "!index.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  page-size: 30
+  feed: true
+---
