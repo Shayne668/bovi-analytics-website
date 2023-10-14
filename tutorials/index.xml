@@ -10,7 +10,7 @@
 <atom:link href="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.353</generator>
-<lastBuildDate>Tue, 01 Aug 2023 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 01 Aug 2023 23:00:00 GMT</lastBuildDate>
 <item>
   <title>Naming conventions</title>
   <link>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/general-naming-convention.html</link>
@@ -451,7 +451,7 @@ font-style: inherit;">20</span></span></code></pre></div>
   <category>Scala</category>
   <category>Python</category>
   <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/general-naming-convention.html</guid>
-  <pubDate>Tue, 01 Aug 2023 22:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Aug 2023 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Python naming convention</title>
@@ -658,7 +658,7 @@ font-style: inherit;">10</span></span></code></pre></div>
   <category>Best practice</category>
   <category>Python</category>
   <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/python-naming-convention.html</guid>
-  <pubDate>Tue, 01 Aug 2023 22:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Aug 2023 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>R naming convention</title>
@@ -832,7 +832,7 @@ font-style: inherit;">#...</span></span>
   <category>Best practice</category>
   <category>R</category>
   <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/r-naming-convention.html</guid>
-  <pubDate>Tue, 01 Aug 2023 22:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Aug 2023 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Scala naming convention</title>
@@ -1176,7 +1176,7 @@ font-style: inherit;">}</span></span></code></pre></div>
   <category>Best practice</category>
   <category>Scala</category>
   <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/scala-naming-convention.html</guid>
-  <pubDate>Tue, 01 Aug 2023 22:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Aug 2023 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>What is Slack, and why Slack?</title>
@@ -1209,7 +1209,7 @@ font-style: inherit;">}</span></span></code></pre></div>
  ]]></description>
   <category>Slack</category>
   <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/slack.html</guid>
-  <pubDate>Tue, 01 Aug 2023 22:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Aug 2023 23:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
