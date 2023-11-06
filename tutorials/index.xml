@@ -10,7 +10,49 @@
 <atom:link href="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.353</generator>
-<lastBuildDate>Wed, 02 Aug 2023 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 05 Nov 2023 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Get started with Databricks</title>
+  <link>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/databricks.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>Databricks is a unified data analytics and machine learning platform that is designed to simplify and accelerate data-driven decision-making for organizations. It was founded by the creators of Apache Spark, a popular open-source big data processing framework. Databricks builds on Spark and provides an integrated environment for data engineering, data science, and business intelligence.</p>
+</section>
+<section id="get-started" class="level1">
+<h1>Get started</h1>
+<p>To sign up for Databricks Community Edition:</p>
+<ol type="1">
+<li><p>Click ‘Try Databricks’ <a href="https://www.databricks.com/try-databricks#account">here</a>.</p></li>
+<li><p>Enter your name, company, email, and title, and click Continue.</p>
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/images/Login1-01.jpg" class="img-fluid"></p></li>
+<li><p><strong>VERY IMPORTANT.</strong> On the Choose a cloud provider dialog, click the “Get started with Community Edition” link. You’ll see a page announcing that an email has been sent to the address you provided.</p>
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/images/Login2.jpg" class="img-fluid"></p></li>
+<li><p>Look for the welcome email and click the link to verify your email address. You are prompted to create your Databricks password.</p></li>
+<li><p>When you click <strong>Submit</strong>, you'll be taken to the Databricks Community Edition home page.When you click Submit, you’ll be taken to the Databricks Community Edition home page.</p>
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/https:/docs.databricks.com/en/_images/landing-aws-ce.png" class="img-fluid"></p></li>
+</ol>
+</section>
+<section id="how-to-add-other-people-to-your-workspace" class="level1">
+<h1>How to add other people to your workspace</h1>
+<ol type="1">
+<li><p>Move to your user profile on the upper right corner.</p></li>
+<li><p>Click on ‘Admin Settings’</p></li>
+<li><p>Click ‘Add user’</p>
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/https:/i.stack.imgur.com/qqv0L.png" class="img-fluid"></p></li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <category>Databricks</category>
+  <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/databricks.html</guid>
+  <pubDate>Sun, 05 Nov 2023 23:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Naming conventions</title>
   <link>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/general-naming-convention.html</link>
@@ -451,7 +493,7 @@ font-style: inherit;">20</span></span></code></pre></div>
   <category>Scala</category>
   <category>Python</category>
   <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/general-naming-convention.html</guid>
-  <pubDate>Wed, 02 Aug 2023 05:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Aug 2023 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Python naming convention</title>
@@ -658,7 +700,7 @@ font-style: inherit;">10</span></span></code></pre></div>
   <category>Best practice</category>
   <category>Python</category>
   <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/python-naming-convention.html</guid>
-  <pubDate>Wed, 02 Aug 2023 05:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Aug 2023 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>R naming convention</title>
@@ -832,7 +874,7 @@ font-style: inherit;">#...</span></span>
   <category>Best practice</category>
   <category>R</category>
   <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/r-naming-convention.html</guid>
-  <pubDate>Wed, 02 Aug 2023 05:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Aug 2023 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Scala naming convention</title>
@@ -1176,7 +1218,7 @@ font-style: inherit;">}</span></span></code></pre></div>
   <category>Best practice</category>
   <category>Scala</category>
   <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/scala-naming-convention.html</guid>
-  <pubDate>Wed, 02 Aug 2023 05:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Aug 2023 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>What is Slack, and why Slack?</title>
@@ -1209,7 +1251,7 @@ font-style: inherit;">}</span></span></code></pre></div>
  ]]></description>
   <category>Slack</category>
   <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/slack.html</guid>
-  <pubDate>Wed, 02 Aug 2023 05:00:00 GMT</pubDate>
+  <pubDate>Tue, 01 Aug 2023 22:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

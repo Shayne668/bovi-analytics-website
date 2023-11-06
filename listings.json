@@ -9,6 +9,7 @@
   {
     "listing": "/tutorials/index.html",
     "items": [
+      "/tutorials/databricks.html",
       "/tutorials/general-naming-convention.html",
       "/tutorials/python-naming-convention.html",
       "/tutorials/r-naming-convention.html",

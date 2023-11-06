@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2023-11-06">
 <meta name="description" content="Use modern data analytical tools for dairy science">
 
-<title>Bovi-Analytics - Projects</title>
+<title>Bovi-Analytics - Get started with Databricks</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +32,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="..//files/img/Bovi-Analytics-SmallLogo.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -63,48 +62,17 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="alternate" type="application/rss+xml" title="Bovi-Analytics" href="index.xml"><meta property="og:title" content="Bovi-Analytics - Projects">
-<meta property="og:description" content="An overview of projects">
+<meta property="og:title" content="Bovi-Analytics - Get started with Databricks">
+<meta property="og:description" content="">
 <meta property="og:image" content="https://github.com/Bovi-analytics/bovi-analytics-website/files/social-image-f22.png">
 <meta property="og:site-name" content="Bovi-Analytics">
 <meta property="og:locale" content="en_US">
 <meta property="og:image:height" content="640">
 <meta property="og:image:width" content="1280">
-<meta name="twitter:title" content="Bovi-Analytics - Projects">
-<meta name="twitter:description" content="An overview of projects">
+<meta name="twitter:title" content="Bovi-Analytics - Get started with Databricks">
+<meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://github.com/Bovi-analytics/bovi-analytics-website/files/social-image-f22.png">
 <meta name="twitter:creator" content="@MielHostens">
 <meta name="twitter:card" content="summary_large_image">
@@ -123,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Bovi-Analytics</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="false"></div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -134,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Researchers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../projects/index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../projects/index.html" rel="" target="">
  <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -163,25 +131,48 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Cattle">Cattle <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Finished">Finished <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Horizon 2020">Horizon 2020 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ongoing">Ongoing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Pig">Pig <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Poultry">Poultry <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGhent">UGhent <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Utrecht University">Utrecht University <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VLAIO">VLAIO <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#get-started" id="toc-get-started" class="nav-link" data-scroll-target="#get-started">Get started</a></li>
+  <li><a href="#how-to-add-other-people-to-your-workspace" id="toc-how-to-add-other-people-to-your-workspace" class="nav-link" data-scroll-target="#how-to-add-other-people-to-your-workspace">How to add other people to your workspace</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
-<p class="subtitle lead">An overview of projects</p>
-</div>
+<h1 class="title">Get started with Databricks</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Databricks</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Miel Hostens, et al. </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 6, 2023</p>
+    </div>
+  </div>
   
     
   </div>
@@ -189,130 +180,37 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>Databricks is a unified data analytics and machine learning platform that is designed to simplify and accelerate data-driven decision-making for organizations. It was founded by the creators of Apache Spark, a popular open-source big data processing framework. Databricks builds on Spark and provides an integrated environment for data engineering, data science, and business intelligence.</p>
+</section>
+<section id="get-started" class="level1">
+<h1>Get started</h1>
+<p>To sign up for Databricks Community Edition:</p>
+<ol type="1">
+<li><p>Click ‘Try Databricks’ <a href="https://www.databricks.com/try-databricks#account">here</a>.</p></li>
+<li><p>Enter your name, company, email, and title, and click Continue.</p>
+<p><img src="images/Login1-01.jpg" class="img-fluid"></p></li>
+<li><p><strong>VERY IMPORTANT.</strong> On the Choose a cloud provider dialog, click the “Get started with Community Edition” link. You’ll see a page announcing that an email has been sent to the address you provided.</p>
+<p><img src="images/Login2.jpg" class="img-fluid"></p></li>
+<li><p>Look for the welcome email and click the link to verify your email address. You are prompted to create your Databricks password.</p></li>
+<li><p>When you click <strong>Submit</strong>, you'll be taken to the Databricks Community Edition home page.When you click Submit, you’ll be taken to the Databricks Community Edition home page.</p>
+<p><img src="https://docs.databricks.com/en/_images/landing-aws-ce.png" class="img-fluid"></p></li>
+</ol>
+</section>
+<section id="how-to-add-other-people-to-your-workspace" class="level1">
+<h1>How to add other people to your workspace</h1>
+<ol type="1">
+<li><p>Move to your user profile on the upper right corner.</p></li>
+<li><p>Click on ‘Admin Settings’</p></li>
+<li><p>Click ‘Add user’</p>
+<p><img src="https://i.stack.imgur.com/qqv0L.png" class="img-fluid"></p></li>
+</ol>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Horizon 2020,Ongoing,Cattle,Pig,Poultry,UGhent,Utrecht University" data-listing-date-sort="1625090400000" data-listing-file-modified-sort="1693912945000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../projects/decide.html"> <img src="../projects/decide.webp" class="thumbnail-image" alt="Anonymisation tuturial"> </a></p>
-</div>
-<div class="body">
-<a href="../projects/decide.html">
-<h3 class="no-anchor listing-title">
-Decide project
-</h3>
-<div class="listing-subtitle">
-Data-driven control and prioritisation of non-EU-regulated contagious animal diseases
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Horizon 2020'); return false;">
-Horizon 2020
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Ongoing'); return false;">
-Ongoing
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Cattle'); return false;">
-Cattle
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Pig'); return false;">
-Pig
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Poultry'); return false;">
-Poultry
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('UGhent'); return false;">
-UGhent
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Utrecht University'); return false;">
-Utrecht University
-</div>
-</div>
-<a href="../projects/decide.html">
-<div class="listing-description">
-Farmers, veterinarians and other animal health managers in…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../projects/decide.html">
-<div class="listing-date">
-Jul 1, 2021
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="VLAIO,Finished,Cattle" data-listing-date-sort="1538344800000" data-listing-file-modified-sort="1693912946077" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../projects/veerkracht.html"> <img src="../projects/veerkracht.png" class="thumbnail-image" alt="Veerkracht"> </a></p>
-</div>
-<div class="body">
-<a href="../projects/veerkracht.html">
-<h3 class="no-anchor listing-title">
-Veerkracht project
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('VLAIO'); return false;">
-VLAIO
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Finished'); return false;">
-Finished
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Cattle'); return false;">
-Cattle
-</div>
-</div>
-<a href="../projects/veerkracht.html">
-<div class="listing-description">
-From an economic point of view, the 60 to 90 day period around calving has a major impact. This project therefore aims to create tools for the individual and dynamic…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../projects/veerkracht.html">
-<div class="listing-date">
-Oct 1, 2018
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
