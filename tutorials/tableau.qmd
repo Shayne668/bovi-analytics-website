@@ -1,0 +1,18 @@
+---
+title: "How to get an academic license for Tableau?"
+execute:
+  eval: false
+categories:
+  - Slack
+authors: Miel Hostens, et al.
+date: 11/13/23
+toc: true
+---
+
+# Introduction
+
+Tableau is a powerful data visualization and business intelligence software that allows users to connect, visualize, and share data in a way that facilitates understanding and decision-making. It is widely used for creating interactive and shareable dashboards, reports, and charts. Tableau is known for its user-friendly interface and the ability to handle large and complex datasets.
+
+# Academic license
+
+Students can ask for an academic license for a one year period using the following [link](https://www.tableau.com/academic/students#form).
