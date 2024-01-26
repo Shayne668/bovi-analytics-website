@@ -1,17 +1,17 @@
 author: Miel Hostens
 
 instructor:
-  name: Ass. Prof. Dr. Miel Hostens
+  name: Associate Professor Dr. DVM PhD Miel Hostens
   name_no_title: Miel Hostens
-  email: m.m.hostens@uu.nl
+  email: miel.hostens@cornell.edu
   linkedin:
-  url: "https://www.bovi-analytics.com"
+  url: "https://bovi-analytics.com"
   twitter: "@MielHostens"
   github: "https://github.com/Bovi-Analytics/"
-  office: "Yalelaan 7, 3584 CL, Utrecht"
+  office: "Morrison Hall 273, Ithaca, NY 14853"
   contact_policy: >-
     E-mail and Slack are the best ways to get in contact with me. I will try to respond (sometime too short) to all e-mails and Slack messages within 24 hours (*I really do*), but also remember that i'm RED so remind me if I don't respond right away, don't worry!
-  appointment_url: https://outlook.office365.com/owa/calendar/MielHostens@solisservices.onmicrosoft.com/bookings/
+  appointment_url: https://outlook.office.com/bookwithme/user/81c7a026deb04fc9a3c8251ceeb24e81@cornell.edu?anonymous&ep=plink
   tableau_url: "https://public.tableau.com/profile/bovianalytics#!/"
   google_scholar: "https://scholar.google.com/citations?hl=en&user=fZ1xfdQAAAAJ&view_op=list_works&gmla=AJsN-F6DOEcpROYxdOyxFgAREeu8df0RTIsVt3GOURyAkAdHcPwdCyx3_kJuFcTA7zgnVEoACNe-TtSPCUsDbl46SiHosZyyFYzQURxnFr_Pm8VwMoMNB20"
   scopus: "https://www.scopus.com/authid/detail.uri?authorId=25960883600"
@@ -19,16 +19,18 @@ instructor:
   phd_url: "http://www.rohh.ugent.be/v3/research/phd/2012/Hostens_M.pdf"
 
 lab:
-  location: "Yalelaan 7, 3584 CL Utrecht"
+  location: "Morrison Hall 273, Ithaca, NY 14853"
   github: "https://github.com/Bovi-Analytics/"
   url: "https://www.bovi-analytics.com"
-  copyright_year: "2023"
+  copyright_year: "2024"
   slack: "https://bovi-analytics.slack.com"
 
 university:
-  name: Utrecth University
-  url: "https://www.uu.nl"
+  name: Cornell University
+  url: "https://www.cornell.edu"
 
 school:
-  name: Factulty of Veterinary Medicine
-  url: "https://www.uu.nl/en/organisation/faculty-of-veterinary-medicine"
+  college: College of Animal and Life Sciences
+  department: Departement of Animal Science
+  name: Dairy management unit
+  url: "https://cals.cornell.edu/animal-science/outreach-extension/extension/dairy-management"

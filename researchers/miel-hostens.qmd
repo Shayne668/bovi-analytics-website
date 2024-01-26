@@ -1,12 +1,12 @@
 ---
 title: "Curriculum Vitae - Miel Hostens"
-subtitle: "Assistant Professor at department of Population Health Sciences focusing on sustainable ruminant health in relation to Precision Livestock Management and Big Data in Dairy Cows."
+subtitle: "Robert and Anne Everett Associate Professor of Digital Dairy Management"
 categories:
   - PhD
   - Veterinarian
   - DataScience
 author: Miel Hostens
-date: 06/21/23
+date: 01/26/24
 toc: true
 image: miel-hostens-bio.jpg
 image-alt: "Miel Hostens"
@@ -21,13 +21,13 @@ refs: |
    :::
 ---
 
-![](images/miel-hostens-bio.jpg)
+![](images/miel-hostens-bio-2024.jpg)
 
 {{< video https://www.youtube.com/watch?v=mEnP4GJVhRM >}}
 
 ## Current position
 
-**Assistant Professor** at department of Population Health Sciences (0.9 FTE -- Utrecht University) and at department of Laboratory for Animal Nutrition and Animal Product Quality (0.1 FTE -- Ghent University) focusing on the creation of methodologies using precision dairy farming to monitor sustainable food production systems from a global perspective.
+**Robert and Anne Everett Associate Professor of Digital Dairy Management** at Department of Animal Science, College of Agriculture and Life Sciences, Cornell University (9 months position) and at Department of Laboratory for Animal Nutrition and Animal Product Quality (0.1 FTE -- Ghent University) focusing on the creation of methodologies using precision dairy farming to monitor sustainable food production systems from a global perspective.
 
 ## Education
 
@@ -49,15 +49,15 @@ refs: |
 
 -   **Arno Liseune** (2022), PhD title: "Using deep learning for animal monitoring to improve animal welfare in dairy cattle".
 
-## PHDs finishing in 2023
+## PHDs finishing in 2024
 
 -   **Matthieu Salamone**, a PhD focusing on "The transition period as time window to monitor the nutritional and metabolic resilience of high productive dairy cattle -- Predictive milk production".
 
 -   [**Chen YongYan**](yongyan-chen.html), a PhD focusing on the non-linear lactation curve and weight loss modelling in dairy cows.
 
-## Ongoing PhD supervision
-
 -   **Kristof Hermans**, a PhD focusing on data quality in dairy cows as a follow up on the development of the DairyDataWarehouse.
+
+## Ongoing PhD supervision
 
 -   **Yara Sleghers**, a PhD focusing on the applying federated machine learning to disease data in poultry.
 
