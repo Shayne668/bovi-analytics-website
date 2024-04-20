@@ -22,13 +22,15 @@ knitr::opts_chunk$set(
 3.  Open `bovi-analytics.Rproj` to open an [RStudio Project](https://r4ds.had.co.nz/workflow-projects.html).
 4.  If it's not installed already, R *should* try to install the [{renv} package](https://rstudio.github.io/renv/) when you open the RStudio Project for the first time. If you don't see a message about package installation, install it yourself by running `install.packages("renv")` in the R console.
 5. I had to run `renv::equip()` first to install some tools
-6. Then renv::activate() -> re
+6. Then renv::activate() -> re::status() should confirm
 7. Make sure you update the lock file to the correct r version
 8.  Run `renv::restore()` in the R console to install all the required packages for this project.
 9.  `r emoji::emoji("tada")` All done! `r emoji::emoji("tada")` The complete website will be in a folder named `_site/`.
 
 
 ## How to activate git 'again'
+
+
 
 ## How to build the website
 
