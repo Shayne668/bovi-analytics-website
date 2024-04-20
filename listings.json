@@ -7,6 +7,12 @@
     ]
   },
   {
+    "listing": "/open-positions/index.html",
+    "items": [
+      "/open-positions/post-doc.html"
+    ]
+  },
+  {
     "listing": "/tutorials/index.html",
     "items": [
       "/tutorials/tableau.html",
