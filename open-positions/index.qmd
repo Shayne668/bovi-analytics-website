@@ -1,0 +1,21 @@
+---
+title: "Positions"
+subtitle: "An overview of currently open positions"
+toc: false
+title-block-banner: false
+sidebar: false
+search: false
+page-layout: full  
+listing:
+  contents: 
+    - "*.qmd"
+    - "!index.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  page-size: 30
+  feed: true
+course-logo: /files/img/Bovi-Analytics-SmallLogo.png
+---

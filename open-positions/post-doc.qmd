@@ -1,0 +1,45 @@
+---
+title: "Post-doc"
+subtitle: "Postdoctoral Associate in Digital Dairy Management"
+execute:
+  eval: false
+
+categories:
+  - Post-doc
+  - Open
+  - Cornell University
+authors: Miel Hostens
+date: 01/01/24
+toc: false
+
+---
+
+## Description
+
+As the dairy industry undergoes a transformative shift towards digitalization and data-driven decision-making, there arises an unprecedented opportunity to revolutionize dairy farm management practices. At the intersection of agriculture, data science, and technology, the Bovi-Analytics lab is dedicated to advancing the frontier of digital dairy management to enhance productivity, sustainability, and animal welfare.
+We are seeking a highly motivated and skilled Postdoctoral Associate to join the team, where cutting-edge research converges with practical solutions for the modern dairy farm. With a focus on harnessing the power of data analytics, open-source frameworks, and emerging technologies, this position offers a unique opportunity to contribute to the future of precision livestock farming and dairy industry innovation.
+The successful candidate will collaborate closely with Miel Hostens and experts in agriculture, computer science, and data analytics to tackle key challenges facing dairy farmers today. From leveraging advanced machine learning algorithms to optimize milk production and herd health monitoring, to developing intuitive digital tools for real-time decision support, our research endeavors aim to empower dairy producers with actionable insights and scalable solutions.
+This Postdoctoral Associate position represents a pivotal opportunity to drive impactful research at the nexus of technology and agriculture. As we strive to unlock the full potential of digital dairy management, we seek individuals who are passionate about pushing the boundaries of innovation, bridging disciplinary boundaries, and making tangible contributions to the sustainability and resilience of the global dairy industry.
+
+## Primary duties
+The specific requirements of this Postdoctoral Associate are as follows:
+1.	Research & Development: Collaborate on kick-staring innovative digital dairy management using data analytics and open-source frameworks to enhance productivity and animal welfare at the Bovi-Analytics lab. (40%)
+2.	Publication & Dissemination: Co-author and publish research findings from the Bovi-Analytics lab and present them at conferences to contribute to the scientific community. Willingness to apply for supplemental funding through NSF Postdoctoral funding. (40%)
+3.	Analyze large datasets to derive insights on herd behavior, health indicators, and production trends. Design and implement machine learning models for disease detection, feed optimization, and more. (20%)
+
+This is a full-time position located in Ithaca, New York. This is a 1-year appointment with an option to extend for a year. Future possible extensions depend on funding and performance.
+
+## Required qualifications
+
+A Ph.D. or equivalent doctoral degree in Computer Science, Data Science, Agricultural Engineering, or a related field with a focus on digital agriculture, precision farming, or dairy management systems.
+*	Expertise in Digital Dairy Management: Demonstrated experience and understanding of digital technologies applied to dairy management, including data-driven decision-making, precision livestock farming, and herd health monitoring.
+*	Interdisciplinary collaboration: Experience working in interdisciplinary research environments, collaborating with agricultural scientists, veterinarians, software engineers, and industry stakeholders to translate research findings into practical solutions for the dairy industry.
+*	Communication and publication Record: Excellent written and verbal communication skills, including the ability to present research findings effectively at conferences, workshops, and scientific meetings. A strong record of publications in peer-reviewed journals and conference proceedings is highly desirable.
+
+## Preferred qualifications
+
+*	Experience in supervision of undergraduate and graduate students.
+*	Passion for innovation: Enthusiasm for exploring new technologies, methodologies, and best practices in digital agriculture, with a keen interest in driving innovation and sustainability in the dairy sector through advanced data analytics and technology integration.
+
+Additional information can be requested at [miel.hostens@cornell.edu](mailto:miel.hostens@cornell.edu)
+
