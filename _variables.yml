@@ -1,10 +1,9 @@
 author: Miel Hostens
 
 instructor:
-  name: Associate Professor Dr. DVM PhD Miel Hostens
+  name: Dr. Miel Hostens
   name_no_title: Miel Hostens
   email: miel.hostens@cornell.edu
-  linkedin:
   url: "https://bovi-analytics.com"
   twitter: "@MielHostens"
   github: "https://github.com/Bovi-Analytics/"
@@ -21,6 +20,7 @@ instructor:
 lab:
   location: "Morrison Hall 273, Ithaca, NY 14853"
   github: "https://github.com/Bovi-Analytics/"
+  linkedin: "https://www.linkedin.com/in/miel-hostens-56b1339b/"
   url: "https://www.bovi-analytics.com"
   copyright_year: "2024"
   slack: "https://bovi-analytics.slack.com"
