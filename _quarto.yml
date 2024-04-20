@@ -14,24 +14,17 @@ description-meta: "Use modern data analytical tools for dairy science"
 website:
   title: "Bovi-Analytics"
   site-url: "https://github.com/Bovi-analytics/bovi-analytics-website"
-
   favicon: "/files/img/Bovi-Analytics-SmallLogo.png"
-
-  twitter-card:
-    image: "/files/social-image-f22.png"
-    card-style: summary_large_image
-    creator: "@MielHostens"
-
-  open-graph:
-    image: "/files/social-image-f22.png"
-    locale: en_US
-
   navbar:
     pinned: true
     background: "#4287f5"
     right:
+      - text: "Miel Hostens"
+        file: researchers/miel-hostens.qmd
       - text: "Researchers"
         file: researchers/index.qmd
+      - text: "Open positions"
+        file: open-positions/index.qmd
       - text: "Projects"
         file: projects/index.qmd
       - text: "Tools"
