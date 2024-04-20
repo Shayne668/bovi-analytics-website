@@ -21,13 +21,13 @@ refs: |
    :::
 ---
 
-![](images/miel-hostens-bio-2024.jpg)
+![](/files/img/researchers/miel-hostens-bio-2024.jpg)
 
 {{< video https://www.youtube.com/watch?v=mEnP4GJVhRM >}}
 
 ## Current position
 
-**Robert and Anne Everett Associate Professor of Digital Dairy Management** at Department of Animal Science, College of Agriculture and Life Sciences, Cornell University (9 months position) and at Department of Laboratory for Animal Nutrition and Animal Product Quality (0.1 FTE -- Ghent University) focusing on the creation of methodologies using precision dairy farming to monitor sustainable food production systems from a global perspective.
+**Robert and Anne Everett Associate Professor of Digital Dairy Management and Data Analytics** at Department of Animal Science, College of Agriculture and Life Sciences, Cornell University (9 months position) and at Department of Laboratory for Animal Nutrition and Animal Product Quality (0.1 FTE -- Ghent University) focusing on the creation of methodologies using precision dairy farming to monitor sustainable food production systems from a global perspective.
 
 ## Education
 
@@ -35,7 +35,7 @@ refs: |
 
 -   PhD in Veterinary Medicine, University of Ghent, 2013:
 
--   "Health and Fertility Challenges in High Yielding Dairy Cows during the Transition Period and the Use of Dietary Fatty Acids as an Optimization Strategy"
+    -   "Health and Fertility Challenges in High Yielding Dairy Cows during the Transition Period and the Use of Dietary Fatty Acids as an Optimization Strategy"
 
 -   Master in Veterinary Medicine, University of Ghent, 2006 (*cum laude*).
 
@@ -47,13 +47,13 @@ refs: |
 
 -   [**Peter Hut**](peter-hut.html) (2022), PhD title: "Sense of Sensors -- Monitoring Behaviour of Dairy Cows" focusing on using sensor technology in transition dairy cows.
 
--   **Arno Liseune** (2022), PhD title: "Using deep learning for animal monitoring to improve animal welfare in dairy cattle".
-
-## PHDs finishing in 2024
-
--   **Matthieu Salamone**, a PhD focusing on "The transition period as time window to monitor the nutritional and metabolic resilience of high productive dairy cattle -- Predictive milk production".
+-   [**Arno Liseune**](arno-liseune.html) (2022), PhD title: "Using deep learning for animal monitoring to improve animal welfare in dairy cattle".
 
 -   [**Chen YongYan**](yongyan-chen.html), a PhD focusing on the non-linear lactation curve and weight loss modelling in dairy cows.
+
+## PhDs finishing in 2024
+
+-   **Matthieu Salamone**, a PhD focusing on "The transition period as time window to monitor the nutritional and metabolic resilience of high productive dairy cattle -- Predictive milk production".
 
 -   **Kristof Hermans**, a PhD focusing on data quality in dairy cows as a follow up on the development of the DairyDataWarehouse.
 

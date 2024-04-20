@@ -17,81 +17,83 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .miel-hostens}
 ### Miel Hostens
 
-[![](/files/img/researchers/MielHostens.png){fig-align="left" width="200"}](miel-hostens.html)
+[![](/files/img/headshots/MielHostens.png){fig-align="left" width="200"}](miel-hostens.html)
 :::
 
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .matthieu-salamone}
 ### Matthieu Salamone
 
-[![](/files/img/researchers/MatthieuSalamone.png){fig-align="left" width="200"}](mattieu-salamone.html)
-:::
-
-::: {.g-col-12 .g-col-md-4 .yongyan-chen}
-### YongYan Chen
-
-[![](/files/img/researchers/YongyanChen.png){fig-align="left" width="200"}](yongyan-chen.html)
+[![](/files/img/headshots/MatthieuSalamone.png){fig-align="left" width="200"}](mattieu-salamone.html)
 :::
 
 ::: {.g-col-12 .g-col-md-4 .kristof-hermans}
 ### Kristof Hermans
 
-![](/files/img/researchers/KristofHermans.png){fig-align="left" width="200"}
+![](/files/img/headshots/KristofHermans.png){fig-align="left" width="200"}
 :::
 
 ::: {.g-col-12 .g-col-md-4 .yara-sleghers}
 ### Yara Sleghers
 
-![](/files/img/researchers/YaraSleghers.png){fig-align="left" width="200"}
+![](/files/img/headshots/YaraSleghers.png){fig-align="left" width="200"}
 :::
 
 ::: {.g-col-12 .g-col-md-4 .saba-noor}
 ### Saba Noor
-[![](/files/img/researchers/SabaNoor.png){fig-align="left" width="200"}](saba-noor.html)
+
+[![](/files/img/headshots/SabaNoor.png){fig-align="left" width="200"}](saba-noor.html)
 :::
 
 ::: {.g-col-12 .g-col-md-4 .lucia-trapenese}
 ### Lucia Trapenese
-[![](/files/img/researchers/LuciaTrapenese.png){fig-align="left" width="200"}](lucia-trapenese.html)
+
+[![](/files/img/headshots/LuciaTrapenese.png){fig-align="left" width="200"}](lucia-trapenese.html)
 :::
 :::
 
 ## Previous researchers
 
 ::: {.grid .past-researchers}
+::: {.g-col-12 .g-col-md-4 .yongyan-chen}
+### YongYan Chen
+
+[![](/files/img/headshots/YongyanChen.png){fig-align="left" width="200"}](yongyan-chen.html)
+:::
+
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .hadi-atashi}
 ### Hadi Atashi
 
-![](/files/img/researchers/HadiAtashi.png){width="200"}
+![](/files/img/headshots/HadiAtashi.png){width="200"}
 :::
 
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .jenne-de-koster}
 ### Jenne De Koster
 
-![](/files/img/researchers/JenneDeKoster.png){width="200"}
+![](/files/img/headshots/JenneDeKoster.png){width="200"}
 :::
 
 ::: {.g-col-12 .g-col-md-4 .osvaldo-bogado-pascottini}
 ### Osvaldo Bogado Pascottini
 
-![](/files/img/researchers/OsvaldoBogadoPascottini.png){width="200"}
+![](/files/img/headshots/OsvaldoBogadoPascottini.png){width="200"}
 :::
 
 ::: {.g-col-12 .g-col-md-4 .monica-probo}
 ### Monica Probo
 
-![](/files/img/researchers/MonicaProbo.png){width="200"}
+![](/files/img/headshots/MonicaProbo.png){width="200"}
 :::
 
 ::: {.g-col-12 .g-col-md-4 .peter-hut}
 ### Peter Hut
 
-[![](/files/img/researchers/PeterHut.png){fig-align="left" width="200"}](peter-hut.html)
+[![](/files/img/headshots/PeterHut.png){fig-align="left" width="200"}](peter-hut.html)
 :::
 
 ::: {.g-col-12 .g-col-md-4 .arno-liseune}
 ### Arno Liseune
 
-[![](/files/img/researchers/ArnoLiseune.png){fig-align="left" width="200"}](arno-liseune.html)
+[![](/files/img/headshots/ArnoLiseune.png){fig-align="left" width="200"}](arno-liseune.html)
 :::
 :::
 :::

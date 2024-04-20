@@ -15,4 +15,4 @@ language:
 
 # PhD project
 
-[PhD Arno Liseune](/researchers/pdfs/arno-liseune-phd.pdf)
+[PhD Arno Liseune](/files/pdfs/phds/arno-liseune-phd.pdf)
