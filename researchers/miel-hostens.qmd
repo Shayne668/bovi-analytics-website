@@ -21,13 +21,23 @@ refs: |
    :::
 ---
 
-![](/files/img/researchers/miel-hostens-bio-2024.jpg)
-
-{{< video https://www.youtube.com/watch?v=mEnP4GJVhRM >}}
-
 ## Current position
 
 **Robert and Anne Everett Associate Professor of Digital Dairy Management and Data Analytics** at Department of Animal Science, College of Agriculture and Life Sciences, Cornell University (9 months position) and at Department of Laboratory for Animal Nutrition and Animal Product Quality (0.1 FTE -- Ghent University) focusing on the creation of methodologies using precision dairy farming to monitor sustainable food production systems from a global perspective.
+
+![](/files/img/researchers/miel-hostens-bio-2024.jpg)
+
+## Biographical sketch
+
+***Miel Hostens*** received his MSc in Veterinary Medicine at the Ghent University (Belgium) in 2006 and was awarded his PhD in Veterinary Medicine in 2012. His profound interest in dairy science is heavily supported by an active attendance to multiple national and international dairy science conferences between 2007 and 2023. Quickly after his appointment at the department of Reproduction, Obstetrics and Herd Health in 2007, he developed a strong personal vision around the need for more data-driven dairy science through research and industry collaborations. Starting in the early days of his PhD in 2007, he successfully finished several post-graduate educations in the epidemiological, statistical and data science domain. He finished a professional certificate in Epidemiology (Prince Edward Island, 2009) and Bioinformatics (Dublin, 2016). Next to graduate students in Veterinary Medicine, he supervised undergraduate and graduate students in Computer Science and Bio-informatics. To further deepen his data science expertise, he enrolled in a MSc in Computational Statistics in 2016 and finished 45 ECTS credits. After he finished his PhD in 2013, a prototype of an analytical data pipeline and data warehouse architecture he had developed during his PhD was acquired by Delaval, one of the largest milking equipment manufacturers in the world which was subsequently merged into DairyDataWarehouse.com. The data-driven expertise he developed accelerated involvement in several research and industry projects (see below). He has attracted multiple projects on data-driven agriculture and precision dairy farming overseas. The unique combination of data and dairy science in an academic profile was the main reason for attracting him as **Associate Professor of Digital Dairy Management and Data Analytics** in January 2024 at the Department of Animal Science at Cornell University. His lab focusses on developing a data-driven dairy science eventually contributing to sustainable food production systems from a global perspective.
+
+## Presentations
+
+{{< video https://www.youtube.com/watch?v=mEnP4GJVhRM >}}
+
+{{< video https://youtu.be/ibMIYSSPNwc?si=HYCIoTuj-OCwhyWo >}}
+
+{{< video https://youtu.be/hh8AELptzH0?si=n7MAJlp_xPd9Ug2P >}}
 
 ## Education
 
@@ -49,15 +59,13 @@ refs: |
 
 -   [**Arno Liseune**](arno-liseune.html) (2022), PhD title: "Using deep learning for animal monitoring to improve animal welfare in dairy cattle".
 
--   [**Chen YongYan**](yongyan-chen.html), a PhD focusing on the non-linear lactation curve and weight loss modelling in dairy cows.
+-   [**Chen YongYan**](yongyan-chen.html) (2024), a PhD focusing on the non-linear lactation curve and weight loss modelling in dairy cows.
 
-## PhDs finishing in 2024
+## Ongoing PhD supervision
 
 -   **Matthieu Salamone**, a PhD focusing on "The transition period as time window to monitor the nutritional and metabolic resilience of high productive dairy cattle -- Predictive milk production".
 
 -   **Kristof Hermans**, a PhD focusing on data quality in dairy cows as a follow up on the development of the DairyDataWarehouse.
-
-## Ongoing PhD supervision
 
 -   **Yara Sleghers**, a PhD focusing on the applying federated machine learning to disease data in poultry.
 
@@ -369,6 +377,8 @@ Active involvement in extension services for several Belgian, European and globa
 
 -   A predictive model for hypocalcemia in dairy cows utilizing behavioural sensor data combined with deep learning. ADSA Annual Meeting. 2023. Ottawa. Canada.
 
+-   Generative AI in agriculture. CIDA Symposium 2024. Ithaca \[[Link to presentation](https://prezi.com/view/z8wnDQHiyT8WQs63Erna/)\]
+
 ### Extension workshops
 
 -   How we practitioners should implement our nutrition knowledge to help our farmers? 2011. Workshop on the 6^th^ European Congress of Bovine Health Management, Liège, Belgium.
@@ -451,7 +461,7 @@ Active involvement in extension services for several Belgian, European and globa
 
 -   Evolution or revolution. Future Food Utrecht Symposium 2023. Driebergen, The Netherlands [\[Link to presentation\]](https://prezi.com/view/7pMuqV5fnZl7u46ci6Of/).
 
-## 
+-   Toekomst van de melkveehouderij in Nederland, Europa en daarbuiten. DAMB. Ithaca \[[Link to presentation](https://prezi.com/view/1bcqp5GXaN9lzhFyoVLb/)\].
 
 ## Professional supplementary training and education
 
