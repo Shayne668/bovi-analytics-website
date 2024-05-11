@@ -6,7 +6,7 @@ page-layout: full
 format:
   html:
     template-partials:
-      - html/home/title-block.html
+      - /html/home/title-block.html
 course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 ---
 

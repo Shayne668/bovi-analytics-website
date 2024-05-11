@@ -16,21 +16,21 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
 ### Instructor
 
--   {{< fa user >}}   [{{< var instructor.name >}}]({{< var instructor.url >}})
--   {{< fa university >}}   {{< var instructor.office >}}
--   {{< fa envelope >}}   <a href="mailto:{{< var instructor.email >}}">{{< var instructor.email >}}</a>
--   {{< fa calendar-check >}}   [Schedule an appointment]({{< var instructor.appointment_url >}})
+- {{< fa user >}} &nbsp; [{{< var instructor.name >}}]({{< var instructor.url >}})
+- {{< fa university >}} &nbsp; {{< var instructor.office >}}
+- {{< fa envelope >}} &nbsp; <a href='mailto:{{< var instructor.email >}}'>{{< var instructor.email >}}</a>
+-   {{< fa calendar-check >}} &nbsp; [Schedule an appointment]({{< var instructor.appointment_url >}})
 -   {{< fa person-chalkboard >}} [My presentations](https://bovi-analytics.com/researchers/miel-hostens.html#contributions-to-congresses-symposia-and-workshops)
 :::
 
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
 ### Lab details
 
--   {{< fa location-dot >}}   {{< var lab.location >}}
--   {{< fa brands slack >}}   [Slack]({{< var lab.slack >}})
--   {{< fa brands github >}}   [Github]({{< var lab.github >}})
--   {{< fa brands linkedin >}}   [LinkedIn]({{< var lab.linkedin >}})
--   {{< fa brands twitter >}}   [{{< var instructor.twitter >}}](https://www.twitter.com/{{< var instructor.twitter >}})
+-   {{< fa location-dot >}} &nbsp; {{< var lab.location >}}
+-   {{< fa brands slack >}} &nbsp; [Slack]({{< var lab.slack >}})
+-   {{< fa brands github >}} &nbsp; [Github]({{< var lab.github >}})
+-   {{< fa brands linkedin >}} &nbsp; [LinkedIn]({{< var lab.linkedin >}})
+-   {{< fa brands twitter >}} &nbsp; [{{< var instructor.twitter >}}](https://www.twitter.com/{{< var instructor.twitter >}})
 :::
 
 ::: {.g-col-12 .g-col-md-4 .contact-policy}
