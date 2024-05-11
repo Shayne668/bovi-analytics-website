@@ -6,15 +6,16 @@
       version="2.0">
 <channel>
 <title>Bovi-Analytics</title>
-<link>https://github.com/Bovi-analytics/bovi-analytics-website/projects/index.html</link>
+<link>https://github.com/Bovi-analytics/bovi-analytics-website/projects/</link>
 <atom:link href="https://github.com/Bovi-analytics/bovi-analytics-website/projects/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.3.450</generator>
+<generator>quarto-1.4.553</generator>
 <lastBuildDate>Thu, 01 Jul 2021 04:00:00 GMT</lastBuildDate>
 <item>
   <title>Decide project</title>
   <link>https://github.com/Bovi-analytics/bovi-analytics-website/projects/decide.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -45,6 +46,7 @@
   <title>Veerkracht project</title>
   <link>https://github.com/Bovi-analytics/bovi-analytics-website/projects/veerkracht.html</link>
   <description><![CDATA[ 
+
 
 
 
