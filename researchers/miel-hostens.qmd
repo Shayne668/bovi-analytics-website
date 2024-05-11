@@ -10,35 +10,6 @@ date: 01/26/24
 toc: true
 image: miel-hostens-bio.jpg
 image-alt: "Miel Hostens"
-about:
-    template: trestles
-    links:
-        - icon: linkedin
-          text: LinkedIn
-          url: https://www.linkedin.com/in/chrisvoncsefalvay/
-        - icon: twitter
-          text: Twitter
-          url: https://twitter.com/epichrisis
-        - icon: github
-          text: Github
-          url: https://github.com/chrisvoncsefalvay
-        - icon: instagram
-          text: Instagram
-          url: https://www.instagram.com/chrisvoncsefalvay/
-        - text: "{{< fa envelope >}} Email"
-          url: mailto:chris+website@chrisvoncsefalvay.com
-        - text: "{{< ai orcid >}} ORCID 0000-0003-3131-0864"
-          url: https://orcid.org/0000-0003-3131-0864
-        - text: "{{< ai google-scholar >}} Google Scholar"
-          url: https://scholar.google.com/citations?user=X_2G-VsAAAAJ
-        - text: "{{< ai viaf >}} VIAF 7190162669581955500004"
-          url: http://viaf.org/viaf/7190162669581955500004
-        - text: "{{< ai isni >}} ISNI 0000 0005 0265 5729"
-          url: https://isni.org/isni/0000000502655729
-        - text: "{{< ai researcherid >}} RID IZD-6900-2023"
-          url: https://www.webofscience.com/wos/author/record/IZD-6900-2023
-        - text: "{{< ai osf >}} OSF"
-          url: https://osf.io/awhgj
 #Publication block
 bibliography: "https://api.citedrive.com/bib/0a7516b3-3fa1-4bdb-8ea4-774215ddd932/references.bib?x=eyJpZCI6ICIwYTc1MTZiMy0zZmExLTRiZGItOGVhNC03NzQyMTVkZGQ5MzIiLCAidXNlciI6ICI1MTE2IiwgInNpZ25hdHVyZSI6ICIwNTYzZTNkYzRlN2UxNDYyMjY1ZGU3YTI3M2M1ZmM0Yjc1NDYwNGJkZTRjYTcwY2NiZDU5OTU3Yjk1MWNiMjVhIn0=/bibliography.bib"
 nocite : | 
@@ -716,6 +687,8 @@ Other:
 | TheThingsNetwork       |                          |                            |
 +------------------------+--------------------------+----------------------------+
 
+## Citations
+
 ```{r}
 library(scholar)
 library(ggplot2)
@@ -737,7 +710,7 @@ ggsave(
 )
 ```
 
-Citations
+![](/files/img/scholar_citations_miel_hostens.png)
 
 ## Publications
 
