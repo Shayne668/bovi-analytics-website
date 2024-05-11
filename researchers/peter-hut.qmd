@@ -16,4 +16,4 @@ language:
 
 # PhD project
 
-[PhD Peter Hut](/files/pdfs/phds/peter-hut-phd.pdf)
+[PhD Peter Hut](/files/pdfs/peter-hut-phd.pdf)
