@@ -10,6 +10,35 @@ date: 01/26/24
 toc: true
 image: miel-hostens-bio.jpg
 image-alt: "Miel Hostens"
+about:
+    template: trestles
+    links:
+        - icon: linkedin
+          text: LinkedIn
+          url: https://www.linkedin.com/in/chrisvoncsefalvay/
+        - icon: twitter
+          text: Twitter
+          url: https://twitter.com/epichrisis
+        - icon: github
+          text: Github
+          url: https://github.com/chrisvoncsefalvay
+        - icon: instagram
+          text: Instagram
+          url: https://www.instagram.com/chrisvoncsefalvay/
+        - text: "{{< fa envelope >}} Email"
+          url: mailto:chris+website@chrisvoncsefalvay.com
+        - text: "{{< ai orcid >}} ORCID 0000-0003-3131-0864"
+          url: https://orcid.org/0000-0003-3131-0864
+        - text: "{{< ai google-scholar >}} Google Scholar"
+          url: https://scholar.google.com/citations?user=X_2G-VsAAAAJ
+        - text: "{{< ai viaf >}} VIAF 7190162669581955500004"
+          url: http://viaf.org/viaf/7190162669581955500004
+        - text: "{{< ai isni >}} ISNI 0000 0005 0265 5729"
+          url: https://isni.org/isni/0000000502655729
+        - text: "{{< ai researcherid >}} RID IZD-6900-2023"
+          url: https://www.webofscience.com/wos/author/record/IZD-6900-2023
+        - text: "{{< ai osf >}} OSF"
+          url: https://osf.io/awhgj
 #Publication block
 bibliography: "https://api.citedrive.com/bib/0a7516b3-3fa1-4bdb-8ea4-774215ddd932/references.bib?x=eyJpZCI6ICIwYTc1MTZiMy0zZmExLTRiZGItOGVhNC03NzQyMTVkZGQ5MzIiLCAidXNlciI6ICI1MTE2IiwgInNpZ25hdHVyZSI6ICIwNTYzZTNkYzRlN2UxNDYyMjY1ZGU3YTI3M2M1ZmM0Yjc1NDYwNGJkZTRjYTcwY2NiZDU5OTU3Yjk1MWNiMjVhIn0=/bibliography.bib"
 nocite : | 
@@ -31,13 +60,9 @@ refs: |
 
 ***Miel Hostens*** received his MSc in Veterinary Medicine at the Ghent University (Belgium) in 2006 and was awarded his PhD in Veterinary Medicine in 2012. His profound interest in dairy science is heavily supported by an active attendance to multiple national and international dairy science conferences between 2007 and 2023. Quickly after his appointment at the department of Reproduction, Obstetrics and Herd Health in 2007, he developed a strong personal vision around the need for more data-driven dairy science through research and industry collaborations. Starting in the early days of his PhD in 2007, he successfully finished several post-graduate educations in the epidemiological, statistical and data science domain. He finished a professional certificate in Epidemiology (Prince Edward Island, 2009) and Bioinformatics (Dublin, 2016). Next to graduate students in Veterinary Medicine, he supervised undergraduate and graduate students in Computer Science and Bio-informatics. To further deepen his data science expertise, he enrolled in a MSc in Computational Statistics in 2016 and finished 45 ECTS credits. After he finished his PhD in 2013, a prototype of an analytical data pipeline and data warehouse architecture he had developed during his PhD was acquired by Delaval, one of the largest milking equipment manufacturers in the world which was subsequently merged into DairyDataWarehouse.com. The data-driven expertise he developed accelerated involvement in several research and industry projects (see below). He has attracted multiple projects on data-driven agriculture and precision dairy farming overseas. The unique combination of data and dairy science in an academic profile was the main reason for attracting him as **Associate Professor of Digital Dairy Management and Data Analytics** in January 2024 at the Department of Animal Science at Cornell University. His lab focusses on developing a data-driven dairy science eventually contributing to sustainable food production systems from a global perspective.
 
-## Presentations
+## Motivational insights
 
-{{< video https://www.youtube.com/watch?v=mEnP4GJVhRM >}}
-
-{{< video https://youtu.be/ibMIYSSPNwc?si=HYCIoTuj-OCwhyWo >}}
-
-{{< video https://youtu.be/hh8AELptzH0?si=n7MAJlp_xPd9Ug2P >}}
+Understanding what somebody does often starts by understanding one's motivational insights. [You can read my motivational insights](/files/pdfs/miel-hostens-insights.pdf) (created in 2022, I might have changed a little bit meanwhile :). Most of the ideas in the report can be found in the absolutely must-read "[Surrounded by Idiots](https://www.surroundedbyidiots.com/en/books/surrounded-by-idiots/)" by Thomas Erikson. His book and my own motivational insights have been a personal and academic game changer for me.
 
 ## Education
 
@@ -45,13 +70,13 @@ refs: |
 
 -   PhD in Veterinary Medicine, University of Ghent, 2013:
 
-    -   "Health and Fertility Challenges in High Yielding Dairy Cows during the Transition Period and the Use of Dietary Fatty Acids as an Optimization Strategy"
+    -   "[Health and Fertility Challenges in High Yielding Dairy Cows during the Transition Period and the Use of Dietary Fatty Acids as an Optimization Strategy](/files/pdfs/miel-hostens-cv.pdf)"
 
 -   Master in Veterinary Medicine, University of Ghent, 2006 (*cum laude*).
 
 -   Bachelor in Veterinary Medicine, University of Ghent,2003 (*cum laude*).
 
-## PhDs finished
+## PhDs
 
 -   **Jenne De Koster** (2016), PhD title: "Influence of body condition score of dairy cows at the end of pregnancy on peripheral tissue insulin response and metabolic properties of adipose tissue".
 
@@ -264,6 +289,14 @@ Active involvement in extension services for several Belgian, European and globa
 |                                                   |                                                  |                                                         |
 |                                                   |                                                  | -   [www.mmmooogle.com](http://www.mmmooogle.com)       |
 +---------------------------------------------------+--------------------------------------------------+---------------------------------------------------------+
+
+## Presentations published online
+
+{{< video https://www.youtube.com/watch?v=mEnP4GJVhRM >}}
+
+{{< video https://youtu.be/ibMIYSSPNwc?si=HYCIoTuj-OCwhyWo >}}
+
+{{< video https://youtu.be/hh8AELptzH0?si=n7MAJlp_xPd9Ug2P >}}
 
 ## Contributions to Congresses, Symposia and Workshops
 
@@ -682,6 +715,29 @@ Other:
 |                        |                          |                            |
 | TheThingsNetwork       |                          |                            |
 +------------------------+--------------------------+----------------------------+
+
+```{r}
+library(scholar)
+library(ggplot2)
+library(here)
+cit <- get_citation_history('fZ1xfdQAAAAJ')
+citation_plot <- ggplot(cit,aes(x=year,y=cites))+
+    geom_bar(stat='identity')+
+    labs(x = "", y = "") +
+    theme_bw()+
+    annotate('text',label=format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z"),x=-Inf,y=Inf,vjust=1.5,hjust=-0.05,size=3,colour='gray')
+ggsave(
+  filename = here('files/img/', 'scholar_citations_miel_hostens.png'),
+  citation_plot,
+  width = 1200,
+  height = 630,
+  units = "px",
+  dpi = 300,
+  create.dir = TRUE
+)
+```
+
+Citations
 
 ## Publications
 
