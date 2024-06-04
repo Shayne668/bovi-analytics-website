@@ -1,0 +1,15 @@
+---
+title: "Davey Seeman"
+author: "Davey Seeman"
+date: 05/31/24
+format: html
+editor: visual
+---
+
+### Who am I
+
+Hello, I'm Davey. I'm a rising sophomore studying math and computer science at Cornell University. My areas of interest include computer vision, natural language processing (specifically sentiment analysis), and statistics. I also care deeply about cattle welfare and how it can be achieved using technology. Originally, I'm from Toronto, Canada. Coming to Ithaca was a big change, but I've enjoyed my time here!
+
+### My work at Bovi-Analytics
+
+I am spending this summer (2024) helping create an AI model that, given a video of cows in a barn, determines how long these cows are playing. I am also working on a separate model that evaluates play behavior based on accelerometer data. My work helps form first stages of the "PlayingCalves" project, whose ultimate goal is to find the relationship between calves' play time and the space allotment given to the calves.
