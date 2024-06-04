@@ -385,11 +385,46 @@
     "text": "Who am I\nHi I’m Lucia! I’m from Italy and I’m a PhD student in “Artificial Intelligence for Agrifood and Environment”. My work is focused on the application of machine learning algorithms in ruminant breeding to enhance their management, production, and reproduction performances. Although my focus is on these topics, I am interested in all activities exploiting machine learning, or more generally data analysis, to improve livestock management and animal welfare.\n\n\nMy work at Utrecht University\nI will spend six months at Utrecht University as a visiting PhD where I’m working on the application of deep learning algorithms in the cow domain. In particular, the project aims to explore the relationship between activity and productivity data."
   },
   {
-    "objectID": "researchers/arno-liseune.html",
-    "href": "researchers/arno-liseune.html",
-    "title": "Curriculum Vitae - Arno Liseune",
+    "objectID": "researchers/davey-seeman.html",
+    "href": "researchers/davey-seeman.html",
+    "title": "Davey Seeman",
     "section": "",
-    "text": "PhD project\nPhD Arno Liseune"
+    "text": "Who am I\nHello, I’m Davey. I’m a rising sophomore studying math and computer science at Cornell University. My areas of interest include computer vision, natural language processing (specifically sentiment analysis), and statistics. I also care deeply about cattle welfare and how it can be achieved using technology. Originally, I’m from Toronto, Canada. Coming to Ithaca was a big change, but I’ve enjoyed my time here!\n\n\nMy work at Bovi-Analytics\nI am spending this summer (2024) helping create an AI model that, given a video of cows in a barn, determines how long these cows are playing. I am also working on a separate model that evaluates play behavior based on accelerometer data. My work helps form first stages of the “PlayingCalves” project, whose ultimate goal is to find the relationship between calves’ play time and the space allotment given to the calves."
+  },
+  {
+    "objectID": "projects/veerkracht.html",
+    "href": "projects/veerkracht.html",
+    "title": "Veerkracht project",
+    "section": "",
+    "text": "From an economic point of view, the 60 to 90 day period around calving has a major impact. This project therefore aims to create tools for the individual and dynamic follow-up of the transition success. These tools will enable the farmer to specifically identify and monitor risk animals and to take individual prevention measures to reduce the risk of problems during the transition period and to increase productivity and animal welfare. In the course of this project, the knowledge platform www.koesensor.be will be further expanded with information about indicators, sensor technology and biomarkers to support transition management."
+  },
+  {
+    "objectID": "projects/veerkracht.html#summary",
+    "href": "projects/veerkracht.html#summary",
+    "title": "Veerkracht project",
+    "section": "",
+    "text": "From an economic point of view, the 60 to 90 day period around calving has a major impact. This project therefore aims to create tools for the individual and dynamic follow-up of the transition success. These tools will enable the farmer to specifically identify and monitor risk animals and to take individual prevention measures to reduce the risk of problems during the transition period and to increase productivity and animal welfare. In the course of this project, the knowledge platform www.koesensor.be will be further expanded with information about indicators, sensor technology and biomarkers to support transition management."
+  },
+  {
+    "objectID": "projects/decide.html",
+    "href": "projects/decide.html",
+    "title": "Decide project",
+    "section": "",
+    "text": "Farmers, veterinarians and other animal health managers in the livestock and aquaculture sectors are currently missing information on the prevalence and burden of contagious animal diseases that are not regulated by the European Union.\nThe diseases are estimated to cause 10-15% reduction in performance efficiency of livestock farming, resulting in large financial losses and lower sustainability as well as affect animal welfare.\nDECIDE, a five-year Horizon 2020 project, will develop data-driven decision support tools that offer robust and early signals of disease emergence and options for diagnostic confirmation. Moreover, options will be provided for controlling the disease along with their implications in terms of disease spread, economic burden and animal welfare.\nThis partnership garners expertise in veterinary epidemiology and diagnostics, data science, mechanistic and predictive modelling, economics, animal welfare and social sciences. The consortium can also count on ample access to data from national animal health agencies, providers of veterinary services or farm equipment suppliers. This multidisciplinary consortium brings together 19 partners from 11 European countries.\nOur team is responsible for Work Package 1"
+  },
+  {
+    "objectID": "projects/decide.html#summary",
+    "href": "projects/decide.html#summary",
+    "title": "Decide project",
+    "section": "",
+    "text": "Farmers, veterinarians and other animal health managers in the livestock and aquaculture sectors are currently missing information on the prevalence and burden of contagious animal diseases that are not regulated by the European Union.\nThe diseases are estimated to cause 10-15% reduction in performance efficiency of livestock farming, resulting in large financial losses and lower sustainability as well as affect animal welfare.\nDECIDE, a five-year Horizon 2020 project, will develop data-driven decision support tools that offer robust and early signals of disease emergence and options for diagnostic confirmation. Moreover, options will be provided for controlling the disease along with their implications in terms of disease spread, economic burden and animal welfare.\nThis partnership garners expertise in veterinary epidemiology and diagnostics, data science, mechanistic and predictive modelling, economics, animal welfare and social sciences. The consortium can also count on ample access to data from national animal health agencies, providers of veterinary services or farm equipment suppliers. This multidisciplinary consortium brings together 19 partners from 11 European countries.\nOur team is responsible for Work Package 1"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\n            Welcome to the Bovi-Analytics lab\n        ",
+    "section": "",
+    "text": "Welcome to the Bovi-Analytics lab\n        \n        \n            However beautifull the strategy might be, once in a while you should look at the data\n        \n        \n            \n        \n    \n    \n      \n        \n        \n        \n      \n    \n\n\n\n\n\n\nInstructor\n\n   Dr. Miel Hostens\n   Morrison Hall 273, Ithaca, NY 14853\n   miel.hostens@cornell.edu\n   Schedule an appointment\n My presentations\n\n\n\nLab details\n\n   Morrison Hall 273, Ithaca, NY 14853\n   Slack\n   Github\n   LinkedIn\n   @MielHostens\n\n\n\nContacting me\nE-mail and Slack are the best ways to get in contact with me. I will try to respond (although sometimes too short) to all e-mails and Slack messages within 24 hours (I really do). If I don’t respond right away, don’t worry, just sent me a friendly reminder!"
   },
   {
     "objectID": "open-positions/post-doc.html",
@@ -427,46 +462,18 @@
     "text": "Preferred qualifications\n\nExperience in supervision of undergraduate and graduate students.\nPassion for innovation: Enthusiasm for exploring new technologies, methodologies, and best practices in digital agriculture, with a keen interest in driving innovation and sustainability in the dairy sector through advanced data analytics and technology integration.\n\nAdditional information can be requested at miel.hostens@cornell.edu"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "\n            Welcome to the Bovi-Analytics lab\n        ",
+    "objectID": "researchers/arno-liseune.html",
+    "href": "researchers/arno-liseune.html",
+    "title": "Curriculum Vitae - Arno Liseune",
     "section": "",
-    "text": "Welcome to the Bovi-Analytics lab\n        \n        \n            However beautifull the strategy might be, once in a while you should look at the data\n        \n        \n            \n        \n    \n    \n      \n        \n        \n        \n      \n    \n\n\n\n\n\n\nInstructor\n\n   Dr. Miel Hostens\n   Morrison Hall 273, Ithaca, NY 14853\n   miel.hostens@cornell.edu\n   Schedule an appointment\n My presentations\n\n\n\nLab details\n\n   Morrison Hall 273, Ithaca, NY 14853\n   Slack\n   Github\n   LinkedIn\n   @MielHostens\n\n\n\nContacting me\nE-mail and Slack are the best ways to get in contact with me. I will try to respond (although sometimes too short) to all e-mails and Slack messages within 24 hours (I really do). If I don’t respond right away, don’t worry, just sent me a friendly reminder!"
-  },
-  {
-    "objectID": "projects/decide.html",
-    "href": "projects/decide.html",
-    "title": "Decide project",
-    "section": "",
-    "text": "Farmers, veterinarians and other animal health managers in the livestock and aquaculture sectors are currently missing information on the prevalence and burden of contagious animal diseases that are not regulated by the European Union.\nThe diseases are estimated to cause 10-15% reduction in performance efficiency of livestock farming, resulting in large financial losses and lower sustainability as well as affect animal welfare.\nDECIDE, a five-year Horizon 2020 project, will develop data-driven decision support tools that offer robust and early signals of disease emergence and options for diagnostic confirmation. Moreover, options will be provided for controlling the disease along with their implications in terms of disease spread, economic burden and animal welfare.\nThis partnership garners expertise in veterinary epidemiology and diagnostics, data science, mechanistic and predictive modelling, economics, animal welfare and social sciences. The consortium can also count on ample access to data from national animal health agencies, providers of veterinary services or farm equipment suppliers. This multidisciplinary consortium brings together 19 partners from 11 European countries.\nOur team is responsible for Work Package 1"
-  },
-  {
-    "objectID": "projects/decide.html#summary",
-    "href": "projects/decide.html#summary",
-    "title": "Decide project",
-    "section": "",
-    "text": "Farmers, veterinarians and other animal health managers in the livestock and aquaculture sectors are currently missing information on the prevalence and burden of contagious animal diseases that are not regulated by the European Union.\nThe diseases are estimated to cause 10-15% reduction in performance efficiency of livestock farming, resulting in large financial losses and lower sustainability as well as affect animal welfare.\nDECIDE, a five-year Horizon 2020 project, will develop data-driven decision support tools that offer robust and early signals of disease emergence and options for diagnostic confirmation. Moreover, options will be provided for controlling the disease along with their implications in terms of disease spread, economic burden and animal welfare.\nThis partnership garners expertise in veterinary epidemiology and diagnostics, data science, mechanistic and predictive modelling, economics, animal welfare and social sciences. The consortium can also count on ample access to data from national animal health agencies, providers of veterinary services or farm equipment suppliers. This multidisciplinary consortium brings together 19 partners from 11 European countries.\nOur team is responsible for Work Package 1"
-  },
-  {
-    "objectID": "projects/veerkracht.html",
-    "href": "projects/veerkracht.html",
-    "title": "Veerkracht project",
-    "section": "",
-    "text": "From an economic point of view, the 60 to 90 day period around calving has a major impact. This project therefore aims to create tools for the individual and dynamic follow-up of the transition success. These tools will enable the farmer to specifically identify and monitor risk animals and to take individual prevention measures to reduce the risk of problems during the transition period and to increase productivity and animal welfare. In the course of this project, the knowledge platform www.koesensor.be will be further expanded with information about indicators, sensor technology and biomarkers to support transition management."
-  },
-  {
-    "objectID": "projects/veerkracht.html#summary",
-    "href": "projects/veerkracht.html#summary",
-    "title": "Veerkracht project",
-    "section": "",
-    "text": "From an economic point of view, the 60 to 90 day period around calving has a major impact. This project therefore aims to create tools for the individual and dynamic follow-up of the transition success. These tools will enable the farmer to specifically identify and monitor risk animals and to take individual prevention measures to reduce the risk of problems during the transition period and to increase productivity and animal welfare. In the course of this project, the knowledge platform www.koesensor.be will be further expanded with information about indicators, sensor technology and biomarkers to support transition management."
+    "text": "PhD project\nPhD Arno Liseune"
   },
   {
     "objectID": "researchers/index.html#active-researchers",
     "href": "researchers/index.html#active-researchers",
     "title": "\n            Researchers\n        ",
     "section": "Active researchers",
-    "text": "Active researchers\n\n\nMiel Hostens\n\n\n\n\n\n\n\nMatthieu Salamone\n\n\n\n\n\n\n\nKristof Hermans\n\n\n\n\n\n\n\nYara Sleghers\n\n\n\n\n\n\n\nSaba Noor\n\n\n\n\n\n\n\nLucia Trapenese"
+    "text": "Active researchers\n\n\nMiel Hostens\n\n\n\n\n\n\n\nMatthieu Salamone\n\n\n\n\n\n\n\nKristof Hermans\n\n\n\n\n\n\n\nYara Sleghers\n\n\n\n\n\n\n\nSaba Noor\n\n\n\n\n\n\n\nLucia Trapenese\n\n\n\n\n\n\n\nDavey Seeman"
   },
   {
     "objectID": "researchers/index.html#previous-researchers",
