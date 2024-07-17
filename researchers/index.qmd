@@ -49,13 +49,12 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 
 [![](/files/img/headshots/LuciaTrapenese.png){fig-align="left" width="200"}](lucia-trapenese.html)
 :::
-::: {.g-col-12 .g-col-md-4 .davey-seeman}
 
+::: {.g-col-12 .g-col-md-4 .davey-seeman}
 ### Davey Seeman
 
 [![](/files/img/headshots/DaveySeeman.png){fig-align="left" width="200"}](davey-seeman.html)
 :::
-
 :::
 
 ## Previous researchers
