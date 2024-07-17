@@ -48,7 +48,7 @@ from slack_sdk.errors import SlackApiError
 ### Create slack-api client with token
 
 ``` python
-client = WebClient(token='xoxb-35507772116-7431970780242-1Kr19xKdNhqJOZraeIq9CxOn')
+client = WebClient(token='token is in the description of the pushnotifications channel on bovi-analytics')
 ```
 
 ### Create message and send it
