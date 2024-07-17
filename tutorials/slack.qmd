@@ -32,3 +32,37 @@ Slack is a cloud-based collaboration and communication platform designed for tea
 8.  **Voice and Video Calls:** Slack includes voice and video calling capabilities, allowing users to have audio and video meetings directly within the platform.
 
 Slack has become a popular tool for remote and distributed teams, as it facilitates seamless communication and collaboration across different time zones and locations. It is widely used across various industries and organizations, ranging from startups and small businesses to large enterprises.
+
+## Slack notifications to a Bovi-Analytics channel in your pipeline
+
+### Install drivers to your notebook
+
+``` python
+# prompt: Send a message to slack channel
+
+!pip install slack_sdk
+from slack_sdk import WebClient
+from slack_sdk.errors import SlackApiError
+```
+
+### Create slack-api client with token
+
+``` python
+client = WebClient(token='xoxb-35507772116-7431970780242-1Kr19xKdNhqJOZraeIq9CxOn')
+```
+
+### Create message and send it
+
+``` python
+try:
+    response = client.chat_postMessage(
+        channel='pushnotifications',
+        text="Rsync succesfully synched gdrive to azure"
+    )
+    print(response)
+
+except SlackApiError as e:
+    # You will get a SlackApiError if "ok" is False
+    assert e.response["error"]  # e.g., 'invalid_auth', 'channel_not_found'
+    print(e)
+```
