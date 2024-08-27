@@ -1,0 +1,23 @@
+---
+title: "Enhong Liu"
+categories:
+  - PhD
+  - Animal science
+  - Data Science
+  - GenAI
+  - LLMs
+  - Data Governance
+author: "Enhong Liu"
+date: 08/31/24
+format: html
+editor: visual
+---
+
+### Who am I
+
+I'm Enhong Liu, holding a Ph.D. in Animal Science and an M.S. in Data Science. I firmly believe that digitalization can play a pivotal role in transforming the dairy industry into a more efficient and intelligent system. The current advancements in AI provide a significant opportunity to make this vision a reality. However, while AI continues to evolve and new, more powerful models emerge daily from tech giants and startups, it's crucial to ensure that AI genuinely adds value and solves real-world problems, rather than merely appearing impressive or superficial.
+This demands AI researchers and developers to have not only a solid understanding of algorithms, models, and architectures but, more importantly, a deep comprehension of the industry in which these technologies will be applied, along with the specific challenges they are designed to address. My graduate training and work experience in both fields positions me uniquely to add value to the lab. My background in Animal Science gives me a comprehensive understanding of dairy cattle physiology and management principles, and my M.S. in Data Science (formally known as Computational Data Analytics) equips me with cutting-edge knowledge of AI techniques. This combination enables me to continue lifelong learning in the fast-paced, ever-evolving AI landscape.
+
+### My work at Bovi-Analytics
+
+My current focus is on projects related to generative AI, large language models (LLMs), and federated learning. While general-purpose LLMs-based chatbot like ChatGPT have made tremendous progress in answering generic questions, they often struggle to provide accurate and factually correct answers when it comes to private data or domain-specific inquiries---especially in industries like dairy, where high-quality training data may not be publicly available during their initial model training. Hallucinations in AI responses can undermine trust and hinder AI adoption in agriculture and the dairy industry. Currently, I am collaborating with Dr. Miel Hostens and other professionals in Computer Science to develop a data governance framework, which is critical for managing large, heterogeneous datasets from various sources and formats, ensuring the availability of high-quality data for LLMs. Additionally, I am working on fine-tuning language models and leveraging retrieval-augmented generation techniques to create solutions that can effectively interact with databases containing both structured and unstructured data.
